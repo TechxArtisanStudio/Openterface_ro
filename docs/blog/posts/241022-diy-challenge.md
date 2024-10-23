@@ -25,6 +25,7 @@ Atenție tuturor meșterilor, creatorilor și visătorilor! Suntem încântați 
 **Categorii:** Premii pentru cei mai buni performeri includ premii atât pentru abilități tehnice, cât și pentru creativitate, astfel încât toată lumea are o șansă!
 
 **Premii Minunate:**
+
 - Un Mini-KVM Openterface ediție limitată cu o carcasă transparentă și argintie.
 - Futuristul Pi-Cast KVM de la HackerGadgets.
 - GameShell inspirat retro de la Clockwork.
