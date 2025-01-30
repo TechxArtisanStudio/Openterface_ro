@@ -45,7 +45,7 @@ Pentru a utiliza acest mini-KVM, computerul gazdă trebuie să instaleze una din
 
     Descarcă aplicația Openterface Android APK pentru Android
 
-    [:octicons-download-24: Descarcă {{ android_version }}]https://github.com/TechxArtisanStudio/Openterface_Android/releases/download/{{ config.extra.android_version }}/OpenterfaceAndroid.apk  <br>
+    [:octicons-download-24: Descarcă {{ android_version }}](https://github.com/TechxArtisanStudio/Openterface_Android/releases/download/{{ android_version }}/OpenterfaceAndroid.apk) <br>
     [:octicons-mark-github-16: Openterface_Android](https://github.com/TechxArtisanStudio/Openterface_Android)  <br>
     [:octicons-play-24: Urmărește Demo](https://x.com/TechxArtisan/status/1825460088922071398)
 
