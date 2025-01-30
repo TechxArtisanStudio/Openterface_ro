@@ -16,7 +16,7 @@ Pentru a utiliza acest mini-KVM, computerul gazdă trebuie să instaleze una din
 
     Descarcă aplicația Openterface QT pentru Windows
 
-    [:octicons-download-24: Descarcă {{ config.extra.qt_version }}](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.windows.amd64.exe)  <br>
+    [:octicons-download-24: Descarcă {{ qt_version }}](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ qt_version }}/openterfaceQT.windows.amd64.exe)  <br>
     [:octicons-mark-github-16: Openterface_QT](https://github.com/TechxArtisanStudio/Openterface_QT)  <br>
     [:octicons-play-24: Urmărește Demo](https://youtu.be/ERzpGtRvP2o?si=e9k402f0nxsD8o2j)
 
@@ -43,9 +43,9 @@ Pentru a utiliza acest mini-KVM, computerul gazdă trebuie să instaleze una din
 
     ---
 
-    Versiunea pentru Android este în curs de dezvoltare
+    Descarcă aplicația Openterface Android APK pentru Android
 
-    [:octicons-download-24: Descarcă {{ config.extra.android_version }}]https://github.com/TechxArtisanStudio/Openterface_Android/releases/download/{{ config.extra.android_version }}/OpenterfaceAndroid.apk  <br>
+    [:octicons-download-24: Descarcă {{ android_version }}]https://github.com/TechxArtisanStudio/Openterface_Android/releases/download/{{ config.extra.android_version }}/OpenterfaceAndroid.apk  <br>
     [:octicons-mark-github-16: Openterface_Android](https://github.com/TechxArtisanStudio/Openterface_Android)  <br>
     [:octicons-play-24: Urmărește Demo](https://x.com/TechxArtisan/status/1825460088922071398)
 
