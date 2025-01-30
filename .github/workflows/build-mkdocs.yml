@@ -31,6 +31,10 @@ jobs:
       - name: Get latest QT release version
         id: get_version
         run: |
-          echo "APP_VERSION=$(curl -sL https://api.github.com/repos/TechxArtisanStudio/Openterface_QT/releases/latest | grep '"tag_name":'| sed -E 's/.*"([^"]+)".*/\1/')" >> $GITHUB_ENV
+          echo "QT_VERSION=$(curl -sL https://api.github.com/repos/TechxArtisanStudio/Openterface_QT/releases/latest | grep '"tag_name":'| sed -E 's/.*"([^"]+)".*/\1/')" >> $GITHUB_ENV
       
-      - run: mkdocs gh-deploy --force --config-file mkdocs.yml --env-vars APP_VERSION="${{ env.APP_VERSION }}"
+      - name: Update mkdocs config
+        run: |
+          sed -i "/^extra:/a\  qt_version: ${{ env.QT_VERSION }}" mkdocs.yml
+      
+      - run: mkdocs gh-deploy --force
