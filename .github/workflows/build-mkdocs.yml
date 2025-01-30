@@ -28,4 +28,9 @@ jobs:
       # install additional dependencies here
       - name: Install additional dependencies
         run: pip install -r requirements.txt
-      - run: mkdocs gh-deploy --force
+      - name: Get latest QT release version
+        id: get_version
+        run: |
+          echo "APP_VERSION=$(curl -sL https://api.github.com/repos/TechxArtisanStudio/Openterface_QT/releases/latest | grep '"tag_name":'| sed -E 's/.*"([^"]+)".*/\1/')" >> $GITHUB_ENV
+      
+      - run: mkdocs gh-deploy --force --config-file mkdocs.yml --env-vars APP_VERSION="${{ env.APP_VERSION }}"
