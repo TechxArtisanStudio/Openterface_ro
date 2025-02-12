@@ -1,0 +1,179 @@
+{% extends "main.html" %}
+
+{% block tabs %}
+  {{ super() }}
+
+  <style>.md-header{position:initial}.md-main__inner{margin:0}.md-content{display:none}@media screen and (min-width:60em){.md-sidebar--secondary{display:none}}@media screen and (min-width:76.25em){.md-sidebar--primary{display:none}}</style>
+
+  <section class="mdx-container">
+    <div class="md-grid md-typeset">
+      <div class="mdx-hero">
+        <div class="mdx-hero__image">
+          <img src="images/cover.png" alt="" width="1659" height="1200" draggable="false">
+        </div>
+        <div class="mdx-hero__content">
+          <div class="image-container">
+            <img src="images/openterface-mini-kvm-v1-9-s.png" alt="Produs Openterface Mini-KVM" width="460" draggable="false">
+          </div>
+          <a href="{{ 'https://www.crowdsupply.com/techxartisan/openterface-mini-kvm' | url }}" title="Comandați acum!" class="md-button md-button--primary">
+            Comandați acum! <img src="images/trademark/crowd-supply.svg" alt="Crowd Supply" style="vertical-align: middle; height: 26px;">
+          </a>
+          <a href="{{ 'https://www.crowdsupply.com/techxartisan/usb-kvm-diy-challenge-2024' | url }}" title="Provocare" class="md-button" style="background-color: #ff4500; color: #fff; font-weight: bold; border: 2px solid #ff4500; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); animation: pulse 1.5s infinite;">
+            Provocare DIY
+          </a>
+          <p>Construiți propriul <strong>KVM USB</strong> și câștigați premii incredibile! 🏆</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="dialogue-section-white" id="app">
+    <h2>Instalați Aplicația Gazdă</h2>
+    <div class="container">
+        <img src="/images/product/win_qt_app.jpg" alt="Imagine Poster" class="poster-image-shadow">
+    </div>
+    <div class="callout-button-container">
+        <div class="dialogue-bubble" id="op-bubble">
+            <img src="/images/trademark/win.svg" alt="Avatar" class="avatar" draggable="false">
+            <p>Windows</p>
+            <a href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.windows.amd64.exe" class="md-button md-button--primary" id="join-waitlist-button">QT {{ config.extra.qt_version }}</a>
+        </div>
+        <div class="dialogue-bubble" id="op-bubble">
+            <img src="/images/trademark/app-store.svg" alt="Avatar" class="avatar" draggable="false">
+            <p>macOS</p>
+            <a href="/appstore" class="md-button md-button--primary" id="join-waitlist-button">App Store v{{ config.extra.macos_version }}</a>
+        </div>
+        <div class="dialogue-bubble" id="op-bubble">
+            <img src="/images/trademark/linux.svg" alt="Avatar" class="avatar" draggable="false">
+            <p>Linux</p>
+            <a href="https://github.com/TechxArtisanStudio/Openterface_QT" class="md-button md-button--primary" id="join-waitlist-button">Cod Sursă</a>
+        </div>
+        <div class="dialogue-bubble" id="op-bubble">
+            <img src="/images/trademark/android.svg" alt="Avatar" class="avatar" draggable="false">
+            <p>Android</p>
+            <a href="https://github.com/TechxArtisanStudio/Openterface_Android/releases/download/{{ config.extra.android_version }}/OpenterfaceAndroid.apk" class="md-button md-button--primary" id="join-waitlist-button">apk {{ config.extra.android_version }}</a>
+        </div>
+    </div>
+    <p>și <a href="/app" style="color: var(--md-primary-fg-color);">mai mult</a>.</p>
+  </section>
+
+  <section class="product-close-up" id="product-close-up">
+    
+    <div class="container">
+
+      <div class="product-close-up-content">
+        <div class="product-image">
+          <img src="images/product/use-case-demo-respberry-pi.jpg" alt="Apropiere de Produs">
+        </div>
+        <div class="product-description">
+          <p>Îmbunătățiți setul dvs. de tehnologie cu Openterface Mini-KVM: 
+            <strong>o soluție KVM-over-USB compactă, bogată în caracteristici, open-source</strong> care simplifică viața dvs. tehnologică cu sarcini IT și depanare pe loc.
+          </p>
+        </div>
+      </div>
+  
+      <div class="product-close-up-content reverse-layout">
+        <div class="product-image">
+          <img src="/images/product/use-case-demo-industrial-pc.jpg" alt="Poster Pre-Lansare">
+        </div>
+        <div class="product-description">
+          <p> <strong>Să ne luăm rămas bun de la acel monitor, tastatură și mouse în plus!</strong>
+            Transformați laptopul dvs. într-o consolă KVM inteligentă pentru controlul oricărui dispozitiv fără cap via HDMI și USB.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="icon-section" id="icon">
+    <div class="icon-container">
+        <h2>Caracteristici</h2>
+        <div class="icon-grid">
+            <div class="icon-item">
+              <img src="images/feature-icons/icon-plug-and-play.svg#only-light" alt="Icon Plug and Play">
+              <img src="images/feature-icons/icon-plug-and-play-d.svg#only-dark" alt="Icon Plug and Play">
+              <p>Plug și Play</p>
+            </div>
+            <div class="icon-item">
+                <img src="images/feature-icons/icon-bios-access.svg#only-light" alt="Icon BIOS Access">
+                <img src="images/feature-icons/icon-bios-access-d.svg#only-dark" alt="Icon BIOS Access">
+                <p>Acces BIOS</p>
+            </div>
+            <div class="icon-item">
+                <img src="images/feature-icons/icon-network-free.svg#only-light" alt="Icon Network Free">
+                <img src="images/feature-icons/icon-network-free-d.svg#only-dark" alt="Icon Network Free">
+                <p>Libere de Rețea</p>
+            </div>
+            <div class="icon-item">
+                <img src="images/feature-icons/icon-text-transfer.svg#only-light" alt="Icon Text Transfer">
+                <img src="images/feature-icons/icon-text-transfer-d.svg#only-dark" alt="Icon Text Transfer">
+                <p>Transfer de Text</p>
+            </div>
+            <div class="icon-item">
+                <img src="images/feature-icons/icon-usb-switch.svg#only-light" alt="Icon USB Switch">
+                <img src="images/feature-icons/icon-usb-switch-d.svg#only-dark" alt="Icon USB Switch">
+                <p>Comutator USB</p>
+            </div>
+            <div class="icon-item">
+              <img src="images/feature-icons/icon-more.svg#only-light" alt="Icon More">
+              <img src="images/feature-icons/icon-more-d.svg#only-dark" alt="Icon More">
+              <p>și <a href="/features" style="color: var(--md-primary-fg-color);">mai mult</a>.</p>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <section class="feature-dev-test" id="feature-dev-test">
+    <div class="container">
+      <h2>Previzualizare a Produsului</h2>
+      <div class="videos-wrapper">
+        <div class="video-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/ZZ5P6MnBcHw?si=Ny7OUeid4Wnu_YqV" title="Video de Introducere" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="video-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/K0EuMSQEwKo?si=MEHPtBsCP5pSerD2" title="Aplicație Beta pentru Windows" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="video-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/xAEQpWyfY-c?si=7aMQoJ-1bBI5Hicw" title="Recenzie a Produsului" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="blog" id="blog">
+    <div class="container">
+      <h2>Repere</h2>
+      <div class="blog-list">
+        <div class="post">
+          <h3><a href="/blog/ești-pregătit-pentru-o-provocare-diy-vino-la-show--tell-ul-oshwa/">Ești pregătit pentru o provocare DIY? Vino la Show & Tell-ul OSHWA!</a></h3>
+          <p class="date">24/10/01</p>
+        </div>
+        <div class="post">
+          <h3><a href="/blog/depășirea-obstacolelor-actualizare-progres-și-noua-cronologie/">Depășirea Obstacolelor: Actualizare Progres și Noua Cronologie</a></h3>
+          <p class="date">24/08/23</p>
+        </div>
+        <div class="post">
+          <h3><a href="/blog/de-la-demontare-la-producție-mergem-mai-departe/">De la Demontare la Producție: Mergem Mai Departe!</a></h3>
+          <p class="date">24/07/16</p>
+        </div>
+        <div class="post">
+          <h3><a href="/blog/last-hours-to-back--mini-kvms-at-tech-frontlines/">Ultimile Ore pentru a Susține & Mini-KVM-uri la Frontline Tech</a></h3>
+          <p class="date">24/06/12</p>
+        </div>
+      </div>
+      <a href="{{ '/blog' | url }}" title="Citiți mai mult" class="md-button md-button--primary read-more-btn">
+        Citiți mai mult
+      </a>
+    </div>
+  </section>
+
+  <a rel="me" href="https://mastodon.social/@youyoubilly" style="display:none;">Mastodon</a>
+
+{% endblock %}
+
+{% block content %}{% endblock %}
+
+{% block footer %}
+  {{ super() }}
+{% endblock %}
