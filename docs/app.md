@@ -16,8 +16,8 @@ Pentru a utiliza acest mini-KVM, computerul gazdă trebuie să instaleze una din
 
     Descarcă aplicația Openterface QT pentru Windows
 
-    [:octicons-download-24: Descarcă {{ qt_version }} Instalator](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ qt_version }}/openterfaceQT.windows.amd64.installer.zip)  <br>
-    [:octicons-download-24: Descarcă {{ qt_version }} EXE portabil](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ qt_version }}/openterfaceQT.windows.amd64.portable.zip)  <br>
+    [:octicons-download-24: Descarcă {{ qt_version }} Instalator](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ qt_version }}/openterfaceQT.windows.amd64.installer.exe)  <br>
+    [:octicons-download-24: Descarcă {{ qt_version }} EXE portabil](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ qt_version }}/openterfaceQT-portable.exe)  <br>
     [:octicons-mark-github-16: Openterface_QT](https://github.com/TechxArtisanStudio/Openterface_QT)  <br>
     [:octicons-play-24: Urmărește Demo](https://youtu.be/ERzpGtRvP2o?si=e9k402f0nxsD8o2j)
 
