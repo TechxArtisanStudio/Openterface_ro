@@ -3,7 +3,7 @@
 ## Aplicații pentru Gazdă
 
 <div class="container">
-    <img src="/images/product/win_qt_app.webp" alt="Poster Image" class="poster-image-shadow" loading="lazy">
+    <img src="https://assets.openterface.com/images/product/win_qt_app.webp" alt="Poster Image" class="poster-image-shadow" loading="lazy">
 </div>
 
 Pentru a utiliza acest mini-KVM, computerul gazdă trebuie să instaleze una dintre aplicațiile de mai jos.
