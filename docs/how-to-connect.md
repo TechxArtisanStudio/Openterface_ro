@@ -10,20 +10,20 @@
 
 ![target-side](https://assets.openterface.com/images/product/target-htc_1.svg#only-dark){:style="width:360px"}
 
-① ![Type-C to Host](images/shell-icons/host.svg#only-light){:style="height:15px"} ![Type-C to Host](images/shell-icons/host_1.svg#only-dark){:style="height:15px"} - **Port USB-C Gazdă** (Femelă): Ca port de dispozitiv USB, conectându-se la computerul gazdă pentru transfer de date prin hub-ul USB încorporat
+① ![Type-C to Host](https://assets.openterface.com/images/shell-icons/host.svg#only-light){:style="height:15px"} ![Type-C to Host](https://assets.openterface.com/images/shell-icons/host_1.svg#only-dark){:style="height:15px"} - **Port USB-C Gazdă** (Femelă): Ca port de dispozitiv USB, conectându-se la computerul gazdă pentru transfer de date prin hub-ul USB încorporat
 
-② ![Type-C to Target](images/shell-icons/target.svg#only-light){:style="height:18px"} ![Type-C to Target](images/shell-icons/target_1.svg#only-dark){:style="height:18px"} - **Port USB-C Țintă** (Femelă): Ca port de dispozitiv USB, conectându-se la computerul gazdă pentru emularea ieșirii HID de tastatură și mouse prin hub-ul USB încorporat
+② ![Type-C to Target](https://assets.openterface.com/images/shell-icons/target.svg#only-light){:style="height:18px"} ![Type-C to Target](https://assets.openterface.com/images/shell-icons/target_1.svg#only-dark){:style="height:18px"} - **Port USB-C Țintă** (Femelă): Ca port de dispozitiv USB, conectându-se la computerul gazdă pentru emularea ieșirii HID de tastatură și mouse prin hub-ul USB încorporat
 
-③ ![HDMI Input](images/shell-icons/input.svg#only-light){:style="height:18px"} ![HDMI Input](images/shell-icons/input_1.svg#only-dark){:style="height:18px"} - **Port de Intrare HDMI** (Femelă): Intrare sursă HDMI de la computerul țintă
+③ ![HDMI Input](https://assets.openterface.com/images/shell-icons/input.svg#only-light){:style="height:18px"} ![HDMI Input](https://assets.openterface.com/images/shell-icons/input_1.svg#only-dark){:style="height:18px"} - **Port de Intrare HDMI** (Femelă): Intrare sursă HDMI de la computerul țintă
 
-④ ![USB-A Port](images/shell-icons/switchable-usb.svg#only-light){:style="height:26px"} ![USB-A Port](images/shell-icons/switchable-usb_1.svg#only-dark){:style="height:26px"} - **Port USB-A 2.0 Comutabil** (Femelă): Ca port gazdă USB, utilizat fie de computerul gazdă, fie de computerul țintă la un moment dat, dar nu simultan.
+④ ![USB-A Port](https://assets.openterface.com/images/shell-icons/switchable-usb.svg#only-light){:style="height:26px"} ![USB-A Port](https://assets.openterface.com/images/shell-icons/switchable-usb_1.svg#only-dark){:style="height:26px"} - **Port USB-A 2.0 Comutabil** (Femelă): Ca port gazdă USB, utilizat fie de computerul gazdă, fie de computerul țintă la un moment dat, dar nu simultan.
 
 !!! warning "Potrivire Strânsă"
     Vă rugăm să rețineți că acest port USB-A femelă este proiectat cu un mecanism de blocare, care necesită puțină forță suplimentară pentru a conecta și deconecta dispozitivele USB.
 
-⑤ ![Toggle Switch](images/shell-icons/toggle-h-t.svg#only-light){:style="height:20px"} ![Toggle Switch](images/shell-icons/toggle-h-t_1.svg#only-dark){:style="height:20px"} - **Comutator**: Pentru comutarea conexiunii portului USB-A 2.0 între computerul gazdă și computerul țintă
+⑤ ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t.svg#only-light){:style="height:20px"} ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t_1.svg#only-dark){:style="height:20px"} - **Comutator**: Pentru comutarea conexiunii portului USB-A 2.0 între computerul gazdă și computerul țintă
 
-⑥ ![Extension Pins](images/shell-icons/pins.svg#only-light){:style="height:15px"} ![Extension Pins](images/shell-icons/pins_1.svg#only-dark){:style="height:15px"} - **Pini de Extensie**: Pentru mai multe informații, vă rugăm să consultați [Pini de Extensie](/extension-pin) pentru utilizare de către dezvoltatori.
+⑥ ![Extension Pins](https://assets.openterface.com/images/shell-icons/pins.svg#only-light){:style="height:15px"} ![Extension Pins](https://assets.openterface.com/images/shell-icons/pins_1.svg#only-dark){:style="height:15px"} - **Pini de Extensie**: Pentru mai multe informații, vă rugăm să consultați [Pini de Extensie](/extension-pin) pentru utilizare de către dezvoltatori.
 
 ## Pași de Conectare
 

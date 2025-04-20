@@ -10,7 +10,7 @@ Dispozitivul mini-KVM dispune de un port USB-A 2.0 comutabil care poate fi alter
 - **Comutator Software**: Un buton de comutare în aplicația gazdă.
       - Comută conexiunea portului USB între computerul gazdă și cel țintă
 
-- ![Toggle Switch](images/shell-icons/toggle-h-t.svg#only-light){:style="height:20px"} ![Toggle Switch](images/shell-icons/toggle-h-t_1.svg#only-dark){:style="height:20px"} **Comutator Hardware**: Un comutator fizic cu două poziții pe dispozitiv.
+- ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t.svg#only-light){:style="height:20px"} ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t_1.svg#only-dark){:style="height:20px"} **Comutator Hardware**: Un comutator fizic cu două poziții pe dispozitiv.
       - Poziția interioară: Conectează la computerul gazdă
       - Poziția exterioară: Conectează la computerul țintă
 
@@ -31,77 +31,77 @@ Când mini-KVM-ul este conectat corect și aplicația gazdă este lansată:
 Datorită prezenței atât a comutatoarelor hardware, cât și a celor software, pot apărea patru stări posibile:
 
 - **Starea 1** (Sincronizat, Conectat la Gazdă):
-      - Comutator Hardware: Indică Gazda ![host-computer](images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
-      - Comutator Software: Indică Gazda ![host-computer](images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
-      - Conexiune Port USB: Conectat la Gazdă ![host-computer](images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
+      - Comutator Hardware: Indică Gazda ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
+      - Comutator Software: Indică Gazda ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
+      - Conexiune Port USB: Conectat la Gazdă ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
 
 - **Starea 2** (Sincronizat, Conectat la Țintă):
-      - Comutator Hardware: Indică Ținta ![target-computer](images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
-      - Comutator Software: Indică Ținta ![target-computer](images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
-      - Conexiune Port USB: Conectat la Țintă ![target-computer](images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
+      - Comutator Hardware: Indică Ținta ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
+      - Comutator Software: Indică Ținta ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
+      - Conexiune Port USB: Conectat la Țintă ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
 
 - **Starea 3** (Desincronizat, USB Conectat la Gazdă):
-      - Comutator Hardware: Indică Ținta ![target-computer](images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
-      - Comutator Software: Indică Gazda ![host-computer](images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
-      - Conexiune Port USB: Conectat la Gazdă ![host-computer](images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
+      - Comutator Hardware: Indică Ținta ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
+      - Comutator Software: Indică Gazda ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
+      - Conexiune Port USB: Conectat la Gazdă ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
 
 - **Starea 4** (Desincronizat, USB Conectat la Țintă):
-      - Comutator Hardware: Indică Gazda ![host-computer](images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
-      - Comutator Software: Indică Ținta ![target-computer](images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
-      - Conexiune Port USB: Conectat la Țintă ![target-computer](images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
+      - Comutator Hardware: Indică Gazda ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
+      - Comutator Software: Indică Ținta ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
+      - Conexiune Port USB: Conectat la Țintă ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
 
 ## Tranziții și Logică de Stare
 
 ### Din **Starea 1** (Sincronizat la Gazdă)
 
 - ^^***Scenariul 1a***^^: Utilizatorul Mută Comutatorul Hardware la Țintă
-      - Actualizează variabila internă de stare la Țintă ![target-computer](images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
-      - Actualizează afișajul aplicației gazdă pentru a arăta Ținta ![target-computer](images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
-      - Comută conexiunea reală a circuitului la Țintă ![target-computer](images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
+      - Actualizează variabila internă de stare la Țintă ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
+      - Actualizează afișajul aplicației gazdă pentru a arăta Ținta ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
+      - Comută conexiunea reală a circuitului la Țintă ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
       - Tranziție la Starea 2, sincronizat
 
 - ***Scenariul 1b***: Utilizatorul Apasă Comutatorul Software la Țintă
-      - Actualizează variabila internă de stare la Țintă ![target-computer](images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
-      - Poziția comutatorului hardware rămâne neschimbată (indicând Gazda ![host-computer](images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"})
-      - Comută conexiunea reală a circuitului la Țintă ![target-computer](images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
+      - Actualizează variabila internă de stare la Țintă ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
+      - Poziția comutatorului hardware rămâne neschimbată (indicând Gazda ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"})
+      - Comută conexiunea reală a circuitului la Țintă ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
       - Tranziție la Starea 3, desincronizat
 
 ### Din **Starea 2** (Sincronizat la Țintă)
 
-- ^^***Scenariul 2a***^^: Utilizatorul Mută Comutatorul Hardware la Gazdă ![host-computer](images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}:
-      - Actualizează variabila internă de stare la Gazdă ![host-computer](images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
-      - Actualizează afișajul comutatorului software pentru a arăta Gazda ![host-computer](images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
-      - Comută conexiunea reală a circuitului la Gazdă ![host-computer](images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
+- ^^***Scenariul 2a***^^: Utilizatorul Mută Comutatorul Hardware la Gazdă ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}:
+      - Actualizează variabila internă de stare la Gazdă ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
+      - Actualizează afișajul comutatorului software pentru a arăta Gazda ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
+      - Comută conexiunea reală a circuitului la Gazdă ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
       - Tranziție la Starea 1, sincronizat
 
-- ***Scenariul 2b***: Utilizatorul Apasă Comutatorul Software la Gazdă ![host-computer](images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}:
-      - Actualizează variabila internă de stare la Gazdă ![host-computer](images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
-      - Poziția comutatorului hardware rămâne neschimbată (indicând Ținta ![target-computer](images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"})
-      - Comută conexiunea reală a circuitului la Gazdă ![host-computer](images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
+- ***Scenariul 2b***: Utilizatorul Apasă Comutatorul Software la Gazdă ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}:
+      - Actualizează variabila internă de stare la Gazdă ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
+      - Poziția comutatorului hardware rămâne neschimbată (indicând Ținta ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"})
+      - Comută conexiunea reală a circuitului la Gazdă ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
       - Tranziție la Starea 4, desincronizat
 
 ### Din **Starea 3** (Desincronizat, USB Conectat la Gazdă)
 
-- ^^***Scenariul 3a***^^: Utilizatorul Mută Comutatorul Hardware la Țintă ![target-computer](images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}:
+- ^^***Scenariul 3a***^^: Utilizatorul Mută Comutatorul Hardware la Țintă ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}:
       - Fără modificări ale variabilelor
       - Tranziție la Starea 2, sincronizat
 
-- ***Scenariul 3b***: Utilizatorul Apasă Comutatorul Software la Gazdă ![host-computer](images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}:
-      - Actualizează variabila internă de stare la Gazdă ![host-computer](images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
-      - Poziția comutatorului hardware rămâne neschimbată (indicând Ținta ![target-computer](images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"})
-      - Comută conexiunea reală a circuitului la Gazdă ![host-computer](images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
+- ***Scenariul 3b***: Utilizatorul Apasă Comutatorul Software la Gazdă ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}:
+      - Actualizează variabila internă de stare la Gazdă ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
+      - Poziția comutatorului hardware rămâne neschimbată (indicând Ținta ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"})
+      - Comută conexiunea reală a circuitului la Gazdă ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
       - Tranziție la Starea 1, sincronizat
 
 ### Din **Starea 4** (Desincronizat, USB Conectat la Țintă)
 
-- ^^***Scenariul 4a***^^: Utilizatorul Mută Comutatorul Hardware la Gazdă ![host-computer](images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}:
+- ^^***Scenariul 4a***^^: Utilizatorul Mută Comutatorul Hardware la Gazdă ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}:
       - Fără modificări ale variabilelor
       - Tranziție la Starea 1, sincronizat
 
-- ***Scenariul 4b***: Utilizatorul Apasă Comutatorul Software la Țintă ![target-computer](images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}:
-      - Actualizează variabila internă de stare la Țintă ![target-computer](images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
-      - Poziția comutatorului hardware rămâne neschimbată (indicând Gazda ![host-computer](images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"})
-      - Comută conexiunea reală a circuitului la Țintă ![target-computer](images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
+- ***Scenariul 4b***: Utilizatorul Apasă Comutatorul Software la Țintă ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}:
+      - Actualizează variabila internă de stare la Țintă ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
+      - Poziția comutatorului hardware rămâne neschimbată (indicând Gazda ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"})
+      - Comută conexiunea reală a circuitului la Țintă ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
       - Tranziție la Starea 2, sincronizat
 
 !!! avertisment "Amintiți-vă să ejectați unitatea flash înainte de a comuta"
