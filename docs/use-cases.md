@@ -8,17 +8,17 @@ Combinarea Openterface Mini-KVM cu uConsole de la Clockwork transformă acest co
 
 ## ***Gestionarea Simplificată a Serverelor***
 Ideal pentru profesioniștii IT implicați în întreținerea și operarea sălilor de servere, Mini-KVM-ul nostru permite controlul mai multor servere de pe propriul laptop ca o singură stație de lucru, îmbunătățind eficiența operațională.
-![use-case-demo-pc-bios-1](/images/product/use-case-demo-pc-bios-1.jpg)
+![use-case-demo-pc-bios-1](https://assets.openterface.com/images/product/use-case-demo-pc-bios-1.jpg)
 
 ## ***Configurare Simplificată pentru Entuziaștii Tech***
 Acest produs ușurează procesul de configurare pentru entuziaștii micro-computerelor care lucrează cu dispozitive precum Raspberry Pi și Jetson Nano. Permite controlul direct de pe un computer principal, eliminând necesitatea perifericelor suplimentare.
 
-![use-case-demo-respberry-pi](/images/product/use-case-demo-respberry-pi.jpg)
+![use-case-demo-respberry-pi](https://assets.openterface.com/images/product/use-case-demo-respberry-pi.jpg)
 
 ## ***Control Unificat pentru Dispozitive Diverse***
 Perfect pentru profesioniștii care jonglează între computere personale și de serviciu sau care gestionează dispozitive precum bancomate, terminale de loterie video și chioșcuri. Openterface Mini-KVM oferă o interfață unificată care simplifică gestionarea mai multor dispozitive.
 
-![use-case-demo-macmini2009](/images/product/use-case-demo-macmini2009-3.jpg)
+![use-case-demo-macmini2009](https://assets.openterface.com/images/product/use-case-demo-macmini2009-3.jpg)
 
 ## ***Operațiuni Sigure pentru Sarcini Sensibile***
 Profesioniștii care gestionează sarcini ce necesită segregare de rețea, cum ar fi administrarea activelor de criptomonede, vor găsi acest produs indispensabil pentru menținerea operațiunilor locale sigure.
@@ -28,7 +28,7 @@ Profesioniștii care gestionează sarcini ce necesită segregare de rețea, cum 
 ## ***Integrare Eficientă pentru Fluxuri de Lucru Mixte***
 Utilizatorii care schimbă frecvent între computere personale și de serviciu sau cei care gestionează dispozitive de calcul la marginea rețelei vor beneficia de integrarea eficientă a fluxului de lucru pe care o oferă Openterface Mini-KVM.
 
-![use-case-demo-macbookpro2010](/images/product/use-case-demo-macbookpro2010.jpg)
+![use-case-demo-macbookpro2010](https://assets.openterface.com/images/product/use-case-demo-macbookpro2010.jpg)
 
 ## ***Control Fără Întrerupere: Mini-KVM + Android Pencil = Magie Pură***
 Ce-ar fi dacă ai putea să folosești creionul Android pentru a controla sistemele Windows sau macOS direct pe tabletă Android prin Openterface MiniKVM? Imaginați-vă desenând proiecte, marcând documente, sau navigând prin software cu precizie—toate acestea fără a schimba dispozitive! Indiferent dacă este vorba de un instrument de design grafic ca Photoshop, o aplicație de modelare 3D, sau chiar un editor de prezentări, experiența este fluidă și intuitivă.
