@@ -1,7 +1,7 @@
 # Mecanica Portului USB Comutabil
 
-![switch-graphics](images/product/switch-graphics.svg#only-light){:style="width:460px"}
-![switch-graphics](images/product/switch-graphics_1.svg#only-dark){:style="width:460px"}
+![switch-graphics](https://assets.openterface.com/images/product/switch-graphics.svg#only-light){:style="width:460px"}
+![switch-graphics](https://assets.openterface.com/images/product/switch-graphics_1.svg#only-dark){:style="width:460px"}
 
 Dispozitivul mini-KVM dispune de un port USB-A 2.0 comutabil care poate fi alternat între computerul gazdă și cel țintă, dar nu ambele simultan. Această funcționalitate este controlată atât de un comutator fizic, cât și de un comutator software în aplicația gazdă. Acest document explică mecanica și logica din spatele acestor comutatoare.
 

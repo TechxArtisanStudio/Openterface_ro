@@ -4,14 +4,14 @@ Descoperă cele două opțiuni de achiziție create pentru a-ți satisface nevoi
 
 ## Pachet 1: Pachetul de Bază
 
-![basic-pack](images/product/basic-with-maunal.jpg){:style="width:680px"}
+![basic-pack](https://assets.openterface.com/images/product/basic-with-maunal.jpg){:style="width:680px"}
 
 1. Produsul Principal: Openterface Mini-KVM
 2. Ghid de Pornire Rapidă
 
 ## Pachet 2: Pachetul Toolkit
 
-![toolkit-open](images/product/toolkit-open.jpg){:style="width:680px"}
+![toolkit-open](https://assets.openterface.com/images/product/toolkit-open.jpg){:style="width:680px"}
 
 1. Produsul Principal: Openterface Mini-KVM
 2. Ghid de Pornire Rapidă
@@ -21,4 +21,4 @@ Descoperă cele două opțiuni de achiziție create pentru a-ți satisface nevoi
 6. Cablu Type-C Bărbat la USB-A Bărbat (0.3m) cu Adaptor USB-A Femelă la USB-C Bărbat
 7. Cablu Type-C Bărbat-la-Bărbat (1.5m) cu Adaptor USB-C Femelă la USB-A Bărbat
 
-![toolkit-parts-layout-2-numbers](images/product/toolkit-parts-layout-2-numbers.jpg){:style="width:680px"}
+![toolkit-parts-layout-2-numbers](https://assets.openterface.com/images/product/toolkit-parts-layout-2-numbers.jpg){:style="width:680px"}

@@ -23,7 +23,7 @@ Perfect pentru profesioniștii care jonglează între computere personale și de
 ## ***Operațiuni Sigure pentru Sarcini Sensibile***
 Profesioniștii care gestionează sarcini ce necesită segregare de rețea, cum ar fi administrarea activelor de criptomonede, vor găsi acest produs indispensabil pentru menținerea operațiunilor locale sigure.
 
-![use-case-demo-industrial-pc](images/product/use-case-demo-industrial-pc.jpg)
+![use-case-demo-industrial-pc](https://assets.openterface.com/images/product/use-case-demo-industrial-pc.jpg)
 
 ## ***Integrare Eficientă pentru Fluxuri de Lucru Mixte***
 Utilizatorii care schimbă frecvent între computere personale și de serviciu sau cei care gestionează dispozitive de calcul la marginea rețelei vor beneficia de integrarea eficientă a fluxului de lucru pe care o oferă Openterface Mini-KVM.

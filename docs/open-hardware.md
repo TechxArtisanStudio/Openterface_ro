@@ -1,6 +1,6 @@
 # Hardware Deschis
 
-![basic-two-sides-angled](images/product/basic-two-sides-angled.jpg){:style="max-height:400px"}
+![basic-two-sides-angled](https://assets.openterface.com/images/product/basic-two-sides-angled.jpg){:style="max-height:400px"}
 
 ## Explorează Detaliile Hardware
 
