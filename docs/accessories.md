@@ -4,7 +4,7 @@ Aici veți găsi diverse produse care completează și îmbunătățesc funcțio
 
 ## Cablu Convertor VGA la HDMI
 
-![CABLE100-VGA2HDMI](https://assets.openterface.com/images/product/part/CABLE100-VGA2HDMI-1.jpg){:style="height:360px"}
+![CABLE100-VGA2HDMI](https://assets.openterface.com/images/product/part/CABLE100-VGA2HDMI-1.webp){:style="height:360px"}
 
 Acest produs convertește semnalul video VGA și integrează audio în HDMI, permițând conectarea ușoară a dispozitivelor VGA la ecrane HDMI.
 
@@ -27,7 +27,7 @@ Urmăriți video-ul demonstrativ realizat de influencerul tech **Cameron Gray** 
 
 ## Cablu Type-C la USB-A cu Adaptor
 
-![C2A-30-Cable](https://assets.openterface.com/images/product/part/OP-04-CABLE30-C2A.jpg){:style="height:360px"}
+![C2A-30-Cable](https://assets.openterface.com/images/product/part/OP-04-CABLE30-C2A.webp){:style="height:360px"}
 
 Acest cablu versatil Type-C Male la USB-A Male, împreună cu un adaptor USB-A Female la USB-C Male, oferă conectivitate flexibilă la dispozitivele țintă. Permite transferul de date și transmiterea semnalelor de control pentru tastatură și mouse, indiferent dacă dispozitivul țintă folosește un port USB-A sau Type-C.
 
@@ -40,7 +40,7 @@ Acest cablu versatil Type-C Male la USB-A Male, împreună cu un adaptor USB-A F
 
 ## Cablu Type-C la Type-C cu Adaptor
 
-![C2C-150-Cable](https://assets.openterface.com/images/product/part/OP-05-CABLE150-C2C.jpg){:style="height:360px"}
+![C2C-150-Cable](https://assets.openterface.com/images/product/part/OP-05-CABLE150-C2C.webp){:style="height:360px"}
 
 Acest cablu Type-C Male la Male, cu un design elegant și o textură plăcută, de culoare portocalie vibrantă, este destinat conexiunilor cu computerul gazdă. Vine cu un adaptor USB-C Female la USB-A Male pentru o compatibilitate sporită, asigurându-vă că puteți conecta la computere gazdă folosind fie porturi Type-C, fie USB-A. În plus, acest cablu suportă încărcare rapidă de **240W** (Tensiune DC50V, Curent 5A, Putere 240W), fiind perfect nu doar pentru Mini-KVM-urile noastre, ci și pentru încărcarea telefonului mobil sau a laptopului.
 
@@ -53,7 +53,7 @@ Acest cablu Type-C Male la Male, cu un design elegant și o textură plăcută, 
 
 ## Cablu HDMI Male la Male
 
-![HDMI-Cable](https://assets.openterface.com/images/product/part/OP-03-CABLE30-HDMI.jpg){:style="height:360px"}
+![HDMI-Cable](https://assets.openterface.com/images/product/part/OP-03-CABLE30-HDMI.webp){:style="height:360px"}
 
 Acest cablu HDMI compact este perfect pentru conectarea dispozitivului țintă pentru a captura ieșirea video, asigurând o integrare perfectă cu Openterface Mini-KVM.
 
@@ -65,7 +65,7 @@ Acest cablu HDMI compact este perfect pentru conectarea dispozitivului țintă p
 
 ## Geantă pentru Trusa Openterface
 
-![Toolkit-bag](https://assets.openterface.com/images/product/part/OP-06-BAG-TOOLKIT.jpg){:style="height:360px"}
+![Toolkit-bag](https://assets.openterface.com/images/product/part/OP-06-BAG-TOOLKIT.webp){:style="height:360px"}
 
 Păstrați Mini-KVM-ul Openterface și accesoriile sale organizate și portabile cu această geantă compactă pentru trusă. Cu un fermoar portocaliu stilat și buzunare din plasă elastică, această geantă asigură o gestionare excelentă a cablurilor și ușurință în transport, perfectă pentru profesioniștii IT în mișcare.
 
@@ -77,7 +77,7 @@ Păstrați Mini-KVM-ul Openterface și accesoriile sale organizate și portabile
 
 ## Capac pentru Pini de Extensie
 
-![pin-cap](https://assets.openterface.com/images/product/part/pin-cap.jpg){:style="height:360px"}
+![pin-cap](https://assets.openterface.com/images/product/part/pin-cap.webp){:style="height:360px"}
 
 Acest capac pentru pini de extensie, imprimat 3D, înlocuiește capacul original de pe Mini-KVM-ul Openterface, permițând utilizatorilor avansați să expună și să acceseze pinii de extensie pentru dezvoltare personalizată. Puteți descărca fișierele modelului 3D din depozitul nostru GitHub și să imprimați singuri capacul.
 
