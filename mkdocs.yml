@@ -202,6 +202,7 @@ plugins:
         'x.md': 'https://x.com/TechxArtisan'
         'appstore.md': 'https://apps.apple.com/ro/app/openterface-mini-kvm/id6478481082'
         'playstore.md': 'https://play.google.com/store/apps/details?id=com.openterface.AOS'
+        'flathub.md': 'https://flathub.org/apps/com.openterface.openterfaceQT'
   - tags:
       tags_file: tags.md
   - blog:
