@@ -15,179 +15,243 @@
           <div class="image-container">
             <img src="https://assets.openterface.com/images/openterface-mini-kvm-v1-9-s.webp" alt="Produs Openterface Mini-KVM" width="460" draggable="false">
           </div>
-          <a href="{{ 'https://www.crowdsupply.com/techxartisan/openterface-mini-kvm' | url }}" title="Comandați acum!" class="md-button md-button--primary">
-            Comandați acum! <img src="https://assets.openterface.com/images/trademark/crowd-supply.svg" alt="Crowd Supply" style="vertical-align: middle; height: 26px;">
+          <a href="{{ 'https://www.crowdsupply.com/techxartisan/openterface-mini-kvm' | url }}" title="Comandă Acum!" class="md-button md-button--primary" data-i18n="home.mini-kvm">
+            <span data-i18n="home.mini-kvm-btn">Mini-KVM</span><img src="https://assets.openterface.com/images/trademark/crowd-supply.svg" alt="Crowd Supply" style="vertical-align: middle; height: 26px;">
           </a>
-          <a href="{{ 'https://www.crowdsupply.com/techxartisan/usb-kvm-diy-challenge-2024' | url }}" title="Provocare" class="md-button" style="background-color: #ff4500; color: #fff; font-weight: bold; border: 2px solid #ff4500; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); animation: pulse 1.5s infinite;">
-            Provocare DIY
+          <a href="https://shop.techxartisan.com/products/openterface-kvm-ext-for-uconsole" 
+            title="Precomandă" 
+            class="md-button" 
+            style="background-color: #ff4500; color: #fff; font-weight: bold; border: 2px solid #ff4500; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); animation: pulse 1.5s infinite;" 
+            data-i18n="home.uconsole-preorder">
+            Extensie KVM uConsole
           </a>
-          <p>Construiți propriul <strong>KVM USB</strong> și câștigați premii incredibile! 🏆</p>
+          <p data-i18n="home.uconsole-comingsoon">
+            Acum acceptăm precomenzi: <strong data-i18n="home.openterfacekvmext">Extensie Openterface KVM pentru uConsole</strong> – transformă-ți uConsole într-o consolă KVM portabilă!
+          </p>
         </div>
       </div>
     </div>
   </section>
 
   <section class="dialogue-section-white" id="app">
-    <h2>Instalați Aplicația Gazdă</h2>
-    <div class="container">
-        <img src="https://assets.openterface.com/images/product/win_qt_app.webp" alt="Imagine Poster" class="poster-image-shadow" loading="lazy">
-    </div>
-    <div class="callout-button-container">
-        <div class="dialogue-bubble" id="op-bubble">
-            <div>
-              <img src="https://assets.openterface.com/images/trademark/win.svg" alt="Avatar" class="avatar" draggable="false">
-              <p>Windows</p>
-            </div>
-            <h4>{{ config.extra.qt_version }}</h4>
-            <a href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.windows.amd64.installer.exe" class="md-button md-button--primary" id="join-waitlist-button">Instalator</a>
-            <a href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT-portable.exe" class="md-button md-button--primary" id="join-waitlist-button">EXE portabil</a>
+    <div class="slideshow-container">
+      <div class="slideshow-wrapper">
+        <div class="slides fade">
+          <img src="https://assets.openterface.com/images/product/use-case-demo-industrial-pc.webp" alt="PC Industrial" loading="lazy" draggable="false">
         </div>
-        <div class="dialogue-bubble" id="op-bubble">
-            <div>
-              <img src="https://assets.openterface.com/images/trademark/app-store.svg" alt="Avatar" class="avatar" draggable="false">
-              <p>macOS</p>
-            </div>
-            <h4>{{ config.extra.macos_version }}</h4>
-            <a class="btnappstore" href="/appstore"></a>
+        <div class="slides fade">
+          <img src="https://assets.openterface.com/images/product/use-case-demo-respberry-pi.webp" alt="Raspberry Pi" loading="lazy" draggable="false" data-i18n="home.slide-raspberry-pi-alt">
         </div>
-        <div class="dialogue-bubble" id="op-bubble">
-            <div>
-              <img src="https://assets.openterface.com/images/trademark/linux.svg" alt="Avatar" class="avatar" draggable="false">
-              <p>Linux</p>
-            </div>
-            <h4>{{ config.extra.qt_version }}</h4>
-            <a href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.linux.amd64.deb" class="md-button md-button--primary" id="join-waitlist-button">AMD64 DEB</a>
-            <a href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.linux.amd64.rpm" class="md-button md-button--primary" id="join-waitlist-button">AMD64 RPM</a>
-            <a href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.linux.arm64.deb" class="md-button md-button--primary" id="join-waitlist-button">ARM64 DEB</a>
-            <a href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.linux.arm64.rpm" class="md-button md-button--primary" id="join-waitlist-button">ARM64 RPM</a>
-            <a href="https://github.com/TechxArtisanStudio/Openterface_QT" class="md-button md-button--primary" id="join-waitlist-button">Cod Sursă</a>
+        <div class="slides fade">
+          <img src="https://assets.openterface.com/images/product/use-case-demo-pc-bios-1.webp" alt="BIOS PC" loading="lazy" draggable="false" data-i18n="home.slide-pc-bios-alt">
         </div>
-        <div class="dialogue-bubble" id="op-bubble">
-            <div>
-              <img src="https://assets.openterface.com/images/trademark/android.svg" alt="Avatar" class="avatar" draggable="false">
-              <p>Android</p>
-            </div>
-            <h4>{{ config.extra.android_version }}</h4>
-            <a class="btngogoleplay" href="/playstore"></a>
-            <a href="https://github.com/TechxArtisanStudio/Openterface_Android/releases/download/{{ config.extra.android_version }}/OpenterfaceAndroid-release.apk" class="md-button md-button--primary" id="join-waitlist-button">apk {{ config.extra.android_version }}</a>
+        <div class="slides fade">
+          <img src="https://assets.openterface.com/images/product/use-case-demo-macbookpro2010.webp" alt="MacBook Pro 2010" loading="lazy" draggable="false">
         </div>
-    </div>
-    <p>și <a href="/app" style="color: var(--md-primary-fg-color);">mai mult</a>.</p>
-  </section>
-
-  <section class="product-close-up" id="product-close-up">
-    
-    <div class="container">
-
-      <div class="product-close-up-content">
-        <div class="product-image">
-          <img src="https://assets.openterface.com/images/product/use-case-demo-respberry-pi.webp" alt="Apropiere de Produs">
-        </div>
-        <div class="product-description">
-          <p>Îmbunătățiți setul dvs. de tehnologie cu Openterface Mini-KVM: 
-            <strong>o soluție KVM-over-USB compactă, bogată în caracteristici, open-source</strong> care simplifică viața dvs. tehnologică cu sarcini IT și depanare pe loc.
-          </p>
-        </div>
-      </div>
-  
-      <div class="product-close-up-content reverse-layout">
-        <div class="product-image">
-          <img src="https://assets.openterface.com/images/product/use-case-demo-industrial-pc.webp" alt="Poster Pre-Lansare" loading="lazy">
-        </div>
-        <div class="product-description">
-          <p> <strong>Să ne luăm rămas bun de la acel monitor, tastatură și mouse în plus!</strong>
-            Transformați laptopul dvs. într-o consolă KVM inteligentă pentru controlul oricărui dispozitiv fără cap via HDMI și USB.
-          </p>
+        <div class="slides fade">
+          <img src="https://assets.openterface.com/images/product/use-case-demo-macmini2009-3.webp" alt="Mac Mini 2009" loading="lazy" draggable="false">
         </div>
       </div>
     </div>
 
-  </section>
+    <section class="icon-section" id="icon">
+      <div class="icon-container">
+          <div class="icon-grid">
+              <div class="icon-item">
+                <img src="https://assets.openterface.com/images/feature-icons/icon-plug-and-play.svg#only-light" alt="Pictogramă Plug and Play">
+                <img src="https://assets.openterface.com/images/feature-icons/icon-plug-and-play-d.svg#only-dark" alt="Pictogramă Plug and Play">
+                <p data-i18n="home.pnp">Plug'n'Play</p>
+              </div>
+              <div class="icon-item">
+                  <img src="https://assets.openterface.com/images/feature-icons/icon-bios-access.svg#only-light" alt="Pictogramă Acces BIOS">
+                  <img src="https://assets.openterface.com/images/feature-icons/icon-bios-access-d.svg#only-dark" alt="Pictogramă Acces BIOS">
+                  <p data-i18n="home.biosaccess">Acces BIOS</p>
+              </div>
+              <div class="icon-item">
+                  <img src="https://assets.openterface.com/images/feature-icons/icon-network-free.svg#only-light" alt="Pictogramă Fără Rețea">
+                  <img src="https://assets.openterface.com/images/feature-icons/icon-network-free-d.svg#only-dark" alt="Pictogramă Fără Rețea">
+                  <p data-i18n="home.networkfree">Fără Rețea</p>
+              </div>
+              <div class="icon-item">
+                  <img src="https://assets.openterface.com/images/feature-icons/icon-text-transfer.svg#only-light" alt="Pictogramă Transfer Text">
+                  <img src="https://assets.openterface.com/images/feature-icons/icon-text-transfer-d.svg#only-dark" alt="Pictogramă Transfer Text">
+                  <p data-i18n="home.texttransfer">Transfer Text</p>
+              </div>
+              <div class="icon-item">
+                  <img src="https://assets.openterface.com/images/feature-icons/icon-usb-switch.svg#only-light" alt="Pictogramă Comutator USB">
+                  <img src="https://assets.openterface.com/images/feature-icons/icon-usb-switch-d.svg#only-dark" alt="Pictogramă Comutator USB">
+                  <p data-i18n="home.usbswitch">Comutator USB</p>
+              </div>
+              <div class="icon-item">
+                <img src="https://assets.openterface.com/images/feature-icons/icon-more.svg#only-light" alt="Pictogramă Mai Mult">
+                <img src="https://assets.openterface.com/images/feature-icons/icon-more-d.svg#only-dark" alt="Pictogramă Mai Mult">
+                <p data-i18n="home.and">și <a href="/product/minikvm/features" style="color: var(--md-primary-fg-color);" data-i18n="home.more">mai multe</a>.</p>
+            </div>
+          </div>
+      </div>
+    </section>
 
-  <section class="icon-section" id="icon">
-    <div class="icon-container">
-        <h2>Caracteristici</h2>
-        <div class="icon-grid">
-            <div class="icon-item">
-              <img src="https://assets.openterface.com/images/feature-icons/icon-plug-and-play.svg#only-light" alt="Icon Plug and Play">
-              <img src="https://assets.openterface.com/images/feature-icons/icon-plug-and-play-d.svg#only-dark" alt="Icon Plug and Play">
-              <p>Plug și Play</p>
-            </div>
-            <div class="icon-item">
-                <img src="https://assets.openterface.com/images/feature-icons/icon-bios-access.svg#only-light" alt="Icon BIOS Access">
-                <img src="https://assets.openterface.com/images/feature-icons/icon-bios-access-d.svg#only-dark" alt="Icon BIOS Access">
-                <p>Acces BIOS</p>
-            </div>
-            <div class="icon-item">
-                <img src="https://assets.openterface.com/images/feature-icons/icon-network-free.svg#only-light" alt="Icon Network Free">
-                <img src="https://assets.openterface.com/images/feature-icons/icon-network-free-d.svg#only-dark" alt="Icon Network Free">
-                <p>Libere de Rețea</p>
-            </div>
-            <div class="icon-item">
-                <img src="https://assets.openterface.com/images/feature-icons/icon-text-transfer.svg#only-light" alt="Icon Text Transfer">
-                <img src="https://assets.openterface.com/images/feature-icons/icon-text-transfer-d.svg#only-dark" alt="Icon Text Transfer">
-                <p>Transfer de Text</p>
-            </div>
-            <div class="icon-item">
-                <img src="https://assets.openterface.com/images/feature-icons/icon-usb-switch.svg#only-light" alt="Icon USB Switch">
-                <img src="https://assets.openterface.com/images/feature-icons/icon-usb-switch-d.svg#only-dark" alt="Icon USB Switch">
-                <p>Comutator USB</p>
-            </div>
-            <div class="icon-item">
-              <img src="https://assets.openterface.com/images/feature-icons/icon-more.svg#only-light" alt="Icon More">
-              <img src="https://assets.openterface.com/images/feature-icons/icon-more-d.svg#only-dark" alt="Icon More">
-              <p>și <a href="/features" style="color: var(--md-primary-fg-color);">mai mult</a>.</p>
+    <section class="product-close-up" id="product-close-up">
+      <div class="container">
+        <div class="product-close-up-content reverse-layout">
+          <div class="product-image">
+            <img src="https://assets.openterface.com/images/product/toolkit-open.webp" alt="Poster Pre-Lansare" loading="lazy">
+          </div>
+          <div class="product-description">
+            <p data-i18n="home.elevateyourtech">Îmbunătățește-ți trusa de instrumente tehnice cu Openterface Mini-KVM: <br> <strong data-i18n="home.compact-featurerich">O soluție KVM-peste-USB compactă, bogată în funcții și open-source</strong> care îți simplifică viața tehnică cu sarcini IT și depanare la cerere.</p>
+            <p data-i18n="home.turnyourlaptop"> <strong data-i18n="home.saygoodby">Spune adio monitoarelor, tastaturilor și mouse-urilor în plus!</strong> Transformă-ți laptopul într-o consolă KVM inteligentă pentru controlul oricărui dispozitiv headless prin HDMI și USB.</p>
+            <p class="more-link"><a href="/use-cases/" style="color: var(--md-primary-fg-color);" data-i18n="home.exploremore">Explorează mai multe cazuri de utilizare →</a></p>
           </div>
         </div>
+      </div>
+    </section>
+    
+    <div class="callout-button-container">
+      <!-- Windows -->
+      <div class="dialogue-bubble" id="op-bubble">
+        <div>
+          <img src="https://assets.openterface.com/images/trademark/win.svg" alt="Avatar" class="avatar" draggable="false">
+          <p data-i18n="home.windows">Windows</p>
+        </div>
+        <h3 class="version-text">{{ config.extra.qt_version }}</h3>
+        <div class="platform-download" data-platform="windows">
+          <a id="windows-main-download" href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.windows.amd64.installer.exe" class="big-download-btn windows md-button md-button--primary" data-i18n="home.downloadinstaller">
+            <span data-i18n="home.downloadinstaller-btn">Descarcă Programul de Instalare</span>
+          </a>
+          <div class="format-selector">
+            <span class="format-option selected"
+              data-href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.windows.amd64.installer.exe"
+              data-label="Installer" data-i18n="home.installer">Program de Instalare</span>
+            <span class="format-option"
+              data-href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT-portable.exe"
+              data-label="Portable EXE" data-i18n="home.portableexe">EXE Portabil</span>
+            <span class="format-option"
+              data-href="https://github.com/TechxArtisanStudio/Openterface_QT"
+              data-label="Source Code" data-i18n="home.sourcecode">Cod Sursă</span>
+          </div>
+        </div>
+      </div>
+      <!-- macOS -->
+      <div class="dialogue-bubble" id="op-bubble">
+        <div>
+          <img src="https://assets.openterface.com/images/trademark/app-store.svg" alt="Avatar" class="avatar" draggable="false" style="margin-bottom: 8px;">
+          <p data-i18n="home.macos">macOS</p>
+        </div>
+        <h3 class="version-text" data-i18n="home.macos_version">{{ config.extra.macos_version }}</h3>
+        <div class="platform-download" data-platform="macos">
+          <a id="macos-main-download" href="/appstore" class="btnappstore md-button md-button--primary" data-i18n="home.downloadappstore">
+            <span data-i18n="home.downloadappstore-btn">Descarcă din App Store</span>
+          </a>
+          <div class="format-selector">
+            <span class="format-option selected"
+              data-href="/appstore"
+              data-label="App Store"
+              data-i18n="home.appstore">App Store</span>
+            <span class="format-option"
+              data-href="https://github.com/TechxArtisanStudio/Openterface_QT"
+              data-label="Source Code"
+              data-i18n="home.sourcecode">Cod Sursă</span>
+          </div>
+        </div>
+      </div>
+      <!-- Linux -->
+      <div class="dialogue-bubble" id="op-bubble">
+        <div>
+          <img src="https://assets.openterface.com/images/trademark/linux.svg" alt="Avatar" class="avatar" draggable="false">
+          <p data-i18n="home.linux">Linux</p>
+        </div>
+        <h3 class="version-text">{{ config.extra.qt_version }}</h3>
+        <div class="platform-download" data-platform="linux">
+          <a id="linux-main-download" href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.linux.amd64.deb" class="big-download-btn linux md-button md-button--primary" data-i18n="home.downloadamd64deb">
+            <span data-i18n="home.downloadamd64deb-btn">Descarcă AMD64 DEB</span>
+          </a>
+          <div class="format-selector linux-format-selector">
+            <div>
+              <span class="format-option selected"
+                data-href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.linux.amd64.deb"
+                data-label="AMD64 DEB" data-i18n="home.amd64deb">AMD64 DEB</span>
+              <span class="format-option"
+                data-href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.linux.amd64.rpm"
+                data-label="AMD64 RPM" data-i18n="home.amd64rpm">AMD64 RPM</span>
+              <span class="format-option"
+                data-href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.linux.amd64.AppImage"
+                data-label="AMD64 AppImage" data-i18n="home.amd64appimage">AMD64 AppImage</span>
+            </div>
+            <div>
+              <span class="format-option"
+                data-href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.linux.arm64.deb"
+                data-label="ARM64 DEB" data-i18n="home.arm64deb">ARM64 DEB</span>
+              <span class="format-option"
+                data-href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.linux.arm64.rpm"
+                data-label="ARM64 RPM" data-i18n="home.arm64rpm">ARM64 RPM</span>
+              <span class="format-option"
+                data-href="/flathub"
+                data-label="FlatHub" data-i18n="home.flathub">FlatHub</span>
+            </div>
+            <div>
+              <span class="format-option"
+                data-href="https://github.com/TechxArtisanStudio/Openterface_QT"
+                data-label="Source Code" data-i18n="home.sourcecode">Cod Sursă</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Android -->
+      <div class="dialogue-bubble" id="op-bubble">
+        <div>
+          <img src="https://assets.openterface.com/images/trademark/android.svg" alt="Avatar" class="avatar" draggable="false">
+          <p data-i18n="home.android">Android</p>
+        </div>
+        <h3 class="version-text">{{ config.extra.android_version }}</h3>
+        <div class="platform-download" data-platform="android">
+          <a id="android-main-download" href="/playstore" class="btngogoleplay md-button md-button--primary" data-i18n="home.downloadplaystore">Descarcă din Play Store</a>
+          <div class="format-selector">
+            <span class="format-option selected"
+              data-href="/playstore"
+              data-label="Play Store"
+              data-i18n="home.playstore">Play Store</span>
+            <span class="format-option"
+              data-href="https://github.com/TechxArtisanStudio/Openterface_Android/releases/download/{{ config.extra.android_version }}/OpenterfaceAndroid-release.apk"
+              data-label="APK"
+              data-i18n="home.apk">APK</span>
+            <span class="format-option"
+              data-href="https://github.com/TechxArtisanStudio/Openterface_Android"
+              data-label="Source Code"
+              data-i18n="home.sourcecode">Cod Sursă</span>
+          </div>
+        </div>
+      </div>
     </div>
+    <p data-i18n="home.andmore">și <a href="/app" style="color: var(--md-primary-fg-color);" data-i18n="home.more">mai multe</a>.</p>
   </section>
 
   <section class="feature-dev-test" id="feature-dev-test">
     <div class="container">
-      <h2>Previzualizare a Produsului</h2>
+      <h2 data-i18n="home.productreview">Recenzie Produs</h2>
       <div class="videos-wrapper">
         <div class="video-container">
-          <iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/ZZ5P6MnBcHw?si=Ny7OUeid4Wnu_YqV" title="Video de Introducere" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/ZZ5P6MnBcHw?si=Ny7OUeid4Wnu_YqV" title="Video de Prezentare" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen data-i18n="home.introvideo"></iframe>
         </div>
         <div class="video-container">
-          <iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/K0EuMSQEwKo?si=MEHPtBsCP5pSerD2" title="Aplicație Beta pentru Windows" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/sKDYsKBv90A?si=6Zr71Mabpu1688w6" title="Aplicație Beta pentru Windows" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen data-i18n="home.betawindows"></iframe>
         </div>
         <div class="video-container">
-          <iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/xAEQpWyfY-c?si=7aMQoJ-1bBI5Hicw" title="Recenzie a Produsului" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/l5e1wHwZ__c?si=KDTVPeb8fnzvJQiA" title="Recenzie Produs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen data-i18n="home.productreviewvideo"></iframe>
         </div>
       </div>
-    </div>
-  </section>
-  
-  <section class="blog" id="blog">
-    <div class="container">
-      <h2>Repere</h2>
-      <div class="blog-list">
-        <div class="post">
-          <h3><a href="/blog/ești-pregătit-pentru-o-provocare-diy-vino-la-show--tell-ul-oshwa/">Ești pregătit pentru o provocare DIY? Vino la Show & Tell-ul OSHWA!</a></h3>
-          <p class="date">24/10/01</p>
-        </div>
-        <div class="post">
-          <h3><a href="/blog/depășirea-obstacolelor-actualizare-progres-și-noua-cronologie/">Depășirea Obstacolelor: Actualizare Progres și Noua Cronologie</a></h3>
-          <p class="date">24/08/23</p>
-        </div>
-        <div class="post">
-          <h3><a href="/blog/de-la-demontare-la-producție-mergem-mai-departe/">De la Demontare la Producție: Mergem Mai Departe!</a></h3>
-          <p class="date">24/07/16</p>
-        </div>
-        <div class="post">
-          <h3><a href="/blog/last-hours-to-back--mini-kvms-at-tech-frontlines/">Ultimile Ore pentru a Susține & Mini-KVM-uri la Frontline Tech</a></h3>
-          <p class="date">24/06/12</p>
-        </div>
-      </div>
-      <a href="{{ '/blog' | url }}" title="Citiți mai mult" class="md-button md-button--primary read-more-btn">
-        Citiți mai mult
-      </a>
+      <p data-i18n="home.andmore-reviews">și <a href="/product/minikvm/reviews/" style="color: #e0e0e0;" data-i18n="home.more">mai multe</a>.</p>
     </div>
   </section>
 
-  <a rel="me" href="https://mastodon.social/@youyoubilly" style="display:none;">Mastodon</a>
+  <!-- Gibby Avatar and Dialogue Box -->
+  <div class="gibby-container">
+    <a href="#form_signup" class="gibby-link"><img src="https://assets.openterface.com/images/op-avatar.webp" alt="Mascota Gibby" class="gibby-avatar" draggable="false" aria-label="Mascota Gibby"></a>
+    <div class="gibby-dialogue">
+      <p data-i18n="home.subscribenow"><a href="#form_signup" class="gibby-link" data-i18n="home.subscribenow-link">Abonează-te ACUM!</a></p>
+    </div>
+  </div>
 
+  <a rel="me" href="https://mastodon.social/@youyoubilly" style="display:none;" data-i18n="home.mastodon">Mastodon</a>
 {% endblock %}
 
 {% block content %}{% endblock %}
