@@ -14,13 +14,13 @@ Iubim surprizele, cel puțin pe cele bune. Acum câteva săptămâni, am contact
 Ce a urmat a depășit așteptările noastre.
 
 Nu doar că a testat mini-KVM-ul în detaliu, dar și și-a luat timpul să scrie un articol detaliat plin de perspective:
-👉 [Citiți recenzia completă aici](https://tinyrack.kr/review/openterface)
+👉 [Citiți recenzia completă aici](https://tinyrack.net/openterface-mini-kvm)
 
 Feedback-ul său a fost precis, constructiv și bazat pe utilizarea reală. Asta este aur pentru noi. Deși nu am fost de acord cu fiecare punct, exact de aceea a fost valoros. Ne-a împins să reanalizăm unele presupuneri de design și a confirmat unde am avut dreptate. Dacă sunteți curioși, derulați în jos pentru conversația completă.
 
 Și dacă nu îl urmăriți deja:
 - 🎥 [Canalul YouTube](https://youtube.com/@tinyrack)
-- 💬 [Forumul Comunității](https://forum.tinyrack.kr)
+- 💬 [Forumul Comunității](https://forum.tinyrack.net)
 
 Acest tip de dialog este exact ceea ce ajută instrumentele precum ale noastre să evolueze. Deci mulțumim, TinyRack - vă auzim.
 
