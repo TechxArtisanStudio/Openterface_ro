@@ -6,23 +6,27 @@ on:
   repository_dispatch:
     types: [trigger-build]
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Configure Git Credentials
-        run: |
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-      - name: Deploy to GitHub Pages
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+      - name: Prepare redirect files
         run: |
           # Create a simple site structure for GitHub Pages
           mkdir -p docs
           cp index.html docs/
           cp config.json docs/
-          # Deploy to GitHub Pages
-          git add docs/
-          git commit -m "Deploy redirect page with config" || exit 0
-          git push origin main
+          cp CNAME docs/
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
