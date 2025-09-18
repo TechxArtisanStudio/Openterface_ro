@@ -1,7 +1,13 @@
-Acest repository GitHub găzduiește site-ul pentru [Openterface Mini-KVM](https://openterface.com/), un dispozitiv KVM compact și plin de funcționalități, open-source și susținut de o comunitate vibrantă.
+# Openterface Redirect Service for a Specific Language
 
 ![use-case-demo-industrial-pc](https://assets.openterface.com/images/product/use-case-demo-industrial-pc.webp)
 
-Fie că ești un profesionist IT care trebuie să depaneze un server, un dezvoltator care gestionează multiple teste pe mașini de edge computing, un entuziast tech care experimentează cu computere single-board sau pur și simplu cineva care dorește să-și elibereze biroul de cabluri, Openterface Mini-KVM este soluția.
+Welcome to the official repository for the **Openterface**
 
-Descoperă mai multe despre [cazurile noastre de utilizare](https://openterface.com/use-cases/).
+This repository automatically redirects visitors from language-specific domains to the main Openterface website with the correct language path.
+
+## What This Does
+
+When someone visits a language-specific domain, they get automatically redirected to the main website:
+
+- `<lang>.openterface.com/anything` → `https://openterface.com/<lang>/anything`
