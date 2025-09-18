@@ -24,6 +24,7 @@ jobs:
           # Create a simple site structure for GitHub Pages
           mkdir -p docs
           cp index.html docs/
+          cp 404.html docs/
           cp config.json docs/
           cp CNAME docs/
       - name: Upload Pages artifact
