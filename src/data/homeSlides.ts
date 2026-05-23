@@ -8,7 +8,13 @@ export interface HomeSlide {
   image: string;
   imageAlt: string;
   images?: string[];
-  primaryCta?: { label: string; href: string; external?: boolean };
+  primaryCta?: {
+    label: string;
+    href: string;
+    external?: boolean;
+    analyticsEvent?: string;
+    analyticsProduct?: string;
+  };
   secondaryCta?: { label: string; href: string; external?: boolean };
   funding?: { amount: string; date: string; backers: string };
   progressSmall: string;
@@ -29,7 +35,7 @@ export const homeSlides: HomeSlide[] = [
       'https://assets2.openterface.com/images/keymod/keymod.webp',
       'https://assets2.openterface.com/images/keymod/feature.webp',
     ],
-    primaryCta: { label: 'Susține ACUM', href: siteConfig.links.keymodCrowdsupply, external: true },
+    primaryCta: { label: 'Susține ACUM', href: siteConfig.links.keymodCrowdsupply, external: true, analyticsEvent: 'crowdsupply_click', analyticsProduct: 'keymod' },
     secondaryCta: { label: 'Vezi produsul', href: '/products/keymod/' },
     progressSmall: 'Seria KeyMod',
     progressLarge: 'Transformă-ți telefonul într-o tastatură mini',
@@ -46,7 +52,7 @@ export const homeSlides: HomeSlide[] = [
       'https://assets.openterface.com/images/cover/kvm-go-triple.webp',
       'https://assets.openterface.com/images/cover/kvm-go-triple-2.webp',
     ],
-    primaryCta: { label: 'Precomandă ACUM', href: siteConfig.links.kvmgoPurchase, external: true },
+    primaryCta: { label: 'Precomandă ACUM', href: siteConfig.links.kvmgoPurchase, external: true, analyticsEvent: 'crowdsupply_click', analyticsProduct: 'kvm-go' },
     secondaryCta: { label: 'Vezi produsul', href: '/products/kvm-go/' },
     funding: { amount: '$101.548', date: 'Finanțat pe 30 dec. 2025', backers: '478' },
     progressSmall: 'Seria KVM-GO',
@@ -64,7 +70,7 @@ export const homeSlides: HomeSlide[] = [
       'https://assets.openterface.com/images/cover/mini-kvm-toolkit.webp',
       'https://assets.openterface.com/images/cover/mini-kvm.webp',
     ],
-    primaryCta: { label: 'Comandă ACUM', href: siteConfig.links.minikvmPurchase, external: true },
+    primaryCta: { label: 'Comandă ACUM', href: siteConfig.links.minikvmPurchase, external: true, analyticsEvent: 'crowdsupply_click', analyticsProduct: 'minikvm' },
     secondaryCta: { label: 'Vezi produsul', href: '/products/minikvm/' },
     funding: { amount: '$505.471', date: 'Finanțat pe 13 iun. 2024', backers: '3.775' },
     progressSmall: 'Seria Mini-KVM',
@@ -78,7 +84,7 @@ export const homeSlides: HomeSlide[] = [
       'Explorează gama noastră de accesorii esențiale, inclusiv adaptoare video, cabluri de mare viteză și soluții de stocare. Îmbunătățește-ți experiența Openterface cu accesorii de calitate proiectate pentru profesioniști.',
     image: 'https://assets.openterface.com/images/cover.webp',
     imageAlt: 'Accesorii Magazin TxA',
-    primaryCta: { label: 'Cumpără ACUM', href: siteConfig.links.shop, external: true },
+    primaryCta: { label: 'Cumpără ACUM', href: siteConfig.links.shop, external: true, analyticsEvent: 'shop_click', analyticsProduct: 'accessories' },
     secondaryCta: { label: 'Vezi accesorii', href: '/products/accessories/' },
     progressSmall: 'Magazin TxA',
     progressLarge: 'Completează-ți configurația cu accesorii premium',
