@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import DocLinkBanner from '../../components/DocLinkBanner.astro';
-import { legacyPath } from '../../config/site';
+import { docsPath } from '../../config/site';
 ---
 
 <BaseLayout
@@ -20,13 +20,13 @@ import { legacyPath } from '../../config/site';
         to simplificăm controlul calculatoarelor fără monitor fără echipamente voluminoase sau rețele complexe.
       </p>
       <div class="mt-8 flex flex-wrap gap-3">
-        <a href={legacyPath('/about/about-us/')} class="btn btn-secondary" target="_blank" rel="noopener">
+        <a href={docsPath('/about/about-us/')} class="btn btn-secondary" target="_blank" rel="noopener">
           Despre noi complet →
         </a>
-        <a href={legacyPath('/about/compliance/')} class="btn btn-secondary" target="_blank" rel="noopener">
+        <a href={docsPath('/about/compliance/')} class="btn btn-secondary" target="_blank" rel="noopener">
           Conformitate →
         </a>
-        <a href={legacyPath('/about/community/')} class="btn btn-secondary" target="_blank" rel="noopener">
+        <a href={docsPath('/about/community/')} class="btn btn-secondary" target="_blank" rel="noopener">
           Comunitate →
         </a>
       </div>

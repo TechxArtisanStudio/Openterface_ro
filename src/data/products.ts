@@ -1,4 +1,4 @@
-import { legacyPath, siteConfig } from '../config/site';
+import { docsPath, siteConfig } from '../config/site';
 
 export interface ProductDocLink {
   label: string;
@@ -74,11 +74,11 @@ export const products: Record<string, Product> = {
     ],
     useCases: ['Intrare pentru Smart TV și chioșcuri', 'Macro-uri pentru flux de lucru mobil', 'Configurații pentru gaming și accesibilitate'],
     docLinks: [
-      { label: 'Caracteristici', href: legacyPath('/product/keymod/features/') },
-      { label: "Ce se află în cutie", href: legacyPath('/product/keymod/whats-in-the-box/') },
-      { label: 'Cum se conectează', href: legacyPath('/product/keymod/how-to-connect/') },
-      { label: 'Întrebări frecvente', href: legacyPath('/product/keymod/faq/') },
-      { label: 'Descarcă Aplicația KeyMod', href: legacyPath('/app/overview/') },
+      { label: 'Caracteristici', href: docsPath('/product/keymod/features/') },
+      { label: "Ce se află în cutie", href: docsPath('/product/keymod/whats-in-the-box/') },
+      { label: 'Cum se conectează', href: docsPath('/product/keymod/how-to-connect/') },
+      { label: 'Întrebări frecvente', href: docsPath('/product/keymod/faq/') },
+      { label: 'Descarcă Aplicația KeyMod', href: docsPath('/app/overview/') },
     ],
     legacyBase: '/product/keymod/',
   },
@@ -127,11 +127,11 @@ export const products: Record<string, Product> = {
     ],
     useCases: ['Inspecții în centre de date', 'Configurare dispozitive headless', 'Salvare IT pe teren și homelab'],
     docLinks: [
-      { label: 'Caracteristici', href: legacyPath('/product/kvm-go/features/') },
-      { label: 'Pornire rapidă Beta', href: legacyPath('/product/kvm-go/beta-quick-start/') },
-      { label: 'Cum se conectează', href: legacyPath('/product/kvm-go/how-to-connect/') },
-      { label: 'Întrebări frecvente', href: legacyPath('/product/kvm-go/faq/') },
-      { label: 'Descarcă Aplicația', href: legacyPath('/app/overview/') },
+      { label: 'Caracteristici', href: docsPath('/product/kvm-go/features/') },
+      { label: 'Pornire rapidă Beta', href: docsPath('/product/kvm-go/beta-quick-start/') },
+      { label: 'Cum se conectează', href: docsPath('/product/kvm-go/how-to-connect/') },
+      { label: 'Întrebări frecvente', href: docsPath('/product/kvm-go/faq/') },
+      { label: 'Descarcă Aplicația', href: docsPath('/app/overview/') },
     ],
     legacyBase: '/product/kvm-go/',
   },
@@ -180,11 +180,11 @@ export const products: Record<string, Product> = {
     ],
     useCases: ['Gestionare homelab', 'Control side-by-side pentru stații de lucru dezvoltatori', 'Depanare la bancul de lucru IT'],
     docLinks: [
-      { label: 'Caracteristici', href: legacyPath('/product/minikvm/features/') },
-      { label: 'Comutator USB', href: legacyPath('/product/minikvm/usb-switch/') },
-      { label: 'Suport tehnic', href: legacyPath('/product/minikvm/support/') },
-      { label: 'Întrebări frecvente', href: legacyPath('/product/minikvm/faq/') },
-      { label: 'Descarcă Aplicația', href: legacyPath('/app/overview/') },
+      { label: 'Caracteristici', href: docsPath('/product/minikvm/features/') },
+      { label: 'Comutator USB', href: docsPath('/product/minikvm/usb-switch/') },
+      { label: 'Suport tehnic', href: docsPath('/product/minikvm/support/') },
+      { label: 'Întrebări frecvente', href: docsPath('/product/minikvm/faq/') },
+      { label: 'Descarcă Aplicația', href: docsPath('/app/overview/') },
     ],
     legacyBase: '/product/minikvm/',
   },
@@ -203,7 +203,7 @@ export const products: Record<string, Product> = {
       'https://assets.openterface.com/images/uconsole-kvm-extension/uconsole-kvm-extension-1.webp',
     ],
     buyLabel: 'Află mai multe',
-    buyHref: legacyPath('/product/uconsole-kvm-extension/'),
+    buyHref: docsPath('/product/uconsole-kvm-extension/'),
     painPoints: [
       'Consolele portabile duc lipsă de KVM integrat pentru ținte fără monitor',
       'Tehnicienii de teren doresc un singur dispozitiv pentru toate sarcinile',
@@ -226,10 +226,10 @@ export const products: Record<string, Product> = {
     ],
     useCases: ['Instrument portabil pentru centre de date', 'Maker și homelab în mișcare'],
     docLinks: [
-      { label: 'Instalare Hardware', href: legacyPath('/product/uconsole-kvm-extension/hardware-installation/') },
-      { label: 'Configurare Software', href: legacyPath('/product/uconsole-kvm-extension/software-setup/') },
-      { label: 'Cum se conectează', href: legacyPath('/product/uconsole-kvm-extension/connect-to-target/') },
-      { label: 'Întrebări frecvente', href: legacyPath('/product/uconsole-kvm-extension/faq/') },
+      { label: 'Instalare Hardware', href: docsPath('/product/uconsole-kvm-extension/hardware-installation/') },
+      { label: 'Configurare Software', href: docsPath('/product/uconsole-kvm-extension/software-setup/') },
+      { label: 'Cum se conectează', href: docsPath('/product/uconsole-kvm-extension/connect-to-target/') },
+      { label: 'Întrebări frecvente', href: docsPath('/product/uconsole-kvm-extension/faq/') },
     ],
     legacyBase: '/product/uconsole-kvm-extension/',
   },
@@ -257,7 +257,7 @@ export const products: Record<string, Product> = {
     specs: [],
     useCases: ['Organizarea setului de teren', 'Conversia formatului video', 'Cabluri de rezervă pentru gențile IT'],
     docLinks: [
-      { label: 'Toate produsele', href: legacyPath('/product/accessories/') },
+      { label: 'Toate produsele', href: docsPath('/product/accessories/') },
       { label: 'Magazinul TxA', href: siteConfig.links.shop },
     ],
     legacyBase: '/product/accessories/',
