@@ -9,29 +9,29 @@ export interface NavItem {
 
 export const mainNav: NavItem[] = [
   {
-    label: 'Products',
+    label: "Produse",
     href: '/products/',
     children: [
-      { label: 'All Products', href: '/products/' },
+      { label: "Toate produsele", href: '/products/' },
       { label: 'KeyMod Series', href: '/keymod/' },
       { label: 'KVM-GO Series', href: '/kvmgo/' },
       { label: 'Mini-KVM', href: '/minikvm/' },
       { label: 'uConsole KVM Extension', href: '/kvmext/' },
-      { label: 'Accessories', href: '/accessories/' },
+      { label: "Accesorii", href: '/accessories/' },
     ],
   },
   {
-    label: 'Apps',
+    label: "Aplicații",
     href: '/app/',
     children: [
-      { label: 'All Apps', href: '/app/' },
-      { label: 'KVM Control', href: '/kvm/' },
+      { label: "Toate aplicațiile", href: '/app/' },
+      { label: "Control KVM", href: '/kvm/' },
       { label: 'KeyCmd', href: '/keycmd/' },
     ],
   },
-  { label: 'Media', href: '/videos/' },
-  { label: 'About', href: '/about/' },
-  { label: 'Docs', href: docsPath(), external: true },
-  { label: 'News', href: newsPath(), external: true },
-  { label: 'Shop', href: siteConfig.links.shop, external: true },
+  { label: "Media", href: '/videos/' },
+  { label: "Despre noi", href: '/about/' },
+  { label: "Documentație", href: docsPath(), external: true },
+  { label: "Știri", href: newsPath(), external: true },
+  { label: "Magazin", href: siteConfig.links.shop, external: true },
 ];

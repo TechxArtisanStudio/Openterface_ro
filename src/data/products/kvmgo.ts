@@ -7,89 +7,53 @@ import type { Product } from '../products';
  */
 export const kvmgoProduct: Product = {
   slug: 'kvm-go',
-  title: 'Openterface KVM-GO Series',
-  slogan: 'Ultra-Compact KVM That Fits on Your Keychain',
-  subtitle: 'For Critical Tech Moments — Plug. Control. Go.',
+  title: "Openterface Seria KVM-GO",
+  slogan: "KVM ultra-compact care încape pe brelocul tău",
+  subtitle: "Pentru momente tehnice critice — Conectează. Controlează. Mergi.",
   status: 'pre-order',
   description:
-    'The next-generation KVM-over-USB solution with built-in video connectors (HDMI, DisplayPort, or VGA). Ultra-compact, keychain-sized, and built for rapid IT operations in data centers, server rooms, and the field — no loose video cables required.',
+    "Soluția KVM-over-USB de ultimă generație cu conectori video încorporați (HDMI, DisplayPort sau VGA). Ultra-compact, de mărimea unui breloc și construit pentru operațiuni IT rapide în centre de date și camere de servere.",
   seoDescription:
-    'Control headless computers with Openterface KVM-GO. Built-in HDMI/DP/VGA connectors, keychain-sized, 4K-capable KVM-over-USB for IT professionals.',
+    "Controlează calculatoare fără monitor cu Openterface KVM-Go. HDMI/DP/VGA încorporat, de mărimea unui breloc, 4K KVM-over-USB pentru profesioniști IT.",
   keywords:
-    'KVM-GO, KVM over USB, ultra-compact KVM, keychain KVM, 4K KVM, built-in HDMI, MicroSD KVM, headless control',
+    "KVM-Go, KVM over USB, KVM ultra-compact, KVM breloc, 4K KVM, control headless",
   heroImage: 'https://assets.openterface.com/images/cover/kvm-go-triple.webp',
   heroImages: [
     'https://assets.openterface.com/images/cover/kvm-go-triple.webp',
     'https://assets.openterface.com/images/cover/kvm-go-triple-2.webp',
   ],
-  buyLabel: 'Pre-Order NOW',
+  buyLabel: "Precomandă ACUM",
   buyHref: siteConfig.links.kvmgoPurchase,
-  funding: { amount: '$101,548', date: 'Funded on Dec 30, 2025', backers: '478' },
+  funding: { amount: "$101.548", date: "Finanțat pe 30 dec. 2025", backers: "478" },
   painPoints: [
-    'Traditional KVM gear is bulky and requires separate video cables',
-    'Emergency server access in the field needs a pocket-sized tool',
-    'Headless troubleshooting without network access is slow',
+    "Echipamentele KVM tradiționale sunt voluminoase și necesită cabluri video separate",
+    "Accesul de urgență la server pe teren necesită un instrument de buzunar",
+    "Depanarea dispozitivelor fără monitor și fără acces la rețea este lentă",
   ],
   solutions: [
-    'Built-in male HDMI, DisplayPort, or VGA connectors — no loose cables',
-    'Keychain form factor (~25 g) always within reach',
-    'KVM-over-USB with sub-second startup — no network or target drivers',
+    "Conectorii video încorporați elimină cablurile suplimentare",
+    "Formatul de breloc este întotdeauna la îndemână",
+    "KVM-over-USB — nu sunt necesare rețea sau drivere pe țintă",
   ],
   hwFeatures: [
-    {
-      title: 'Keychain-sized design',
-      description: '18 × 18 × 55 mm aluminum body — fits in your pocket, not a crash cart.',
-    },
-    {
-      title: 'Built-in video connectors',
-      description: 'Direct plug-in HDMI, DisplayPort, or VGA male connectors — zero cable hunt.',
-    },
-    {
-      title: '4K video capture',
-      description: 'Up to 4096×2160 @ 60 Hz input; default 1080p@60 for stability (4K experimental).',
-    },
-    {
-      title: 'MicroSD slot',
-      description: 'Switchable storage for OS images, tools, and file transfer between host and target.',
-    },
-    {
-      title: 'BIOS-level access',
-      description: 'Reach firmware, boot menus, and recovery screens without network KVM.',
-    },
-    {
-      title: 'Sub-second startup',
-      description: 'Hardware ready in under 1 second — immediate troubleshooting in the field.',
-    },
+    { title: "Video încorporat", description: "Modele HDMI, DisplayPort sau VGA — fără cabluri libere." },
+    { title: "Mărime de breloc", description: "Cel mai mic KVM-over-USB din gama Openterface." },
+    { title: "Suport 4K", description: "Captură de înaltă rezoluție pentru monitoare moderne." },
   ],
   swFeatures: [
-    {
-      title: 'Cross-platform host apps',
-      description: 'macOS, Windows, Linux, Android, and Chrome web app support.',
-    },
-    {
-      title: 'Text transfer',
-      description: 'Send usernames, passwords, and code via simulated keystrokes (ASCII).',
-    },
-    {
-      title: 'Open source',
-      description: 'Fully open hardware and software — transparent, community-driven stack.',
-    },
+    { title: "Aplicația Openterface Qt", description: "Control gazdă multi-platformă pentru Windows, macOS și Linux." },
+    { title: "Comutator MicroSD", description: "Stocare comutabilă pentru imagini de sistem de operare portabile și instrumente." },
+    { title: "Stivă open source", description: "Firmware și aplicații gazdă conduse de comunitate." },
   ],
   specs: [
-    { label: 'Size', value: '18 × 18 × 55 mm (~25 g)' },
-    { label: 'Models', value: 'HDMI · DisplayPort · VGA (in development)' },
-    { label: 'Video input', value: 'Up to 4K @ 60 Hz (YUV420)' },
-    { label: 'Video output', value: 'Up to 4K @ 60 Hz (MJPEG)' },
-    { label: 'Storage', value: 'MicroSD slot for host/target file transfer' },
-    { label: 'Power', value: 'USB-C powered (no external supply)' },
+    { label: "Video", value: "HDMI / DP / VGA (în funcție de model)" },
+    { label: "Rezoluție", value: "Până la 4K" },
+    { label: "Conexiune", value: "USB-C KVM-over-USB" },
   ],
   useCases: [
-    'Data center walk-throughs',
-    'Headless device setup',
-    'Field IT and homelab rescue',
-    'Travel EDC toolkit',
-    'Legacy VGA rack access',
-    'Maker faire & bench demos',
+    "Inspecții în centre de date",
+    "Configurare dispozitive headless",
+    "Salvare IT pe teren și homelab",
   ],
   useCaseCards: [
     {
@@ -159,12 +123,11 @@ export const kvmgoProduct: Product = {
   latestNewsSubtitle: 'Production milestones, app releases, and community news.',
   latestNewsLabel: 'Read on Openterface News →',
   docLinks: [
-    { label: 'Features', href: docsPath('/products/kvmgo/features/') },
-    { label: 'Beta Quick Start', href: docsPath('/products/kvmgo/beta-quick-start/') },
-    { label: 'How to Connect', href: docsPath('/products/kvmgo/how-to-connect/') },
-    { label: 'MicroSD Switch', href: docsPath('/products/kvmgo/microsd-switch/') },
-    { label: 'Reviews & Media', href: docsPath('/products/kvmgo/reviews/') },
-    { label: 'FAQs', href: docsPath('/products/kvmgo/faq/') },
+    { label: "Caracteristici", href: docsPath("/product/kvm-go/features/") },
+    { label: "Pornire rapidă Beta", href: docsPath("/product/kvm-go/beta-quick-start/") },
+    { label: "Cum se conectează", href: docsPath("/product/kvm-go/how-to-connect/") },
+    { label: "Întrebări frecvente", href: docsPath("/product/kvm-go/faq/") },
+    { label: "Descarcă Aplicația", href: docsPath("/app/overview/") },
   ],
-  legacyBase: '/products/kvmgo/',
+  legacyBase: "/products/kvm-go/",
 };
