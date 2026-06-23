@@ -17,6 +17,18 @@ export interface MarketingUi {
     emailPlaceholder: string;
     footnote: string;
   };
+  productSubscribe: {
+    kicker: string;
+    heading: string;
+    description: string;
+    benefitCrowdfunding: string;
+    benefitGuides: string;
+    benefitUnsubscribe: string;
+    submitLabel: string;
+    namePlaceholder: string;
+    emailPlaceholder: string;
+    footnote: string;
+  };
   siteFooter: {
     tagline: string;
     productsHeading: string;
@@ -29,6 +41,7 @@ export interface MarketingUi {
     faqs: string;
     apps: string;
     support: string;
+    newsletterLink: string;
     newsletterTitle: string;
     newsletterDescription: string;
     newsletterSubmit: string;
@@ -89,14 +102,15 @@ export const ui: MarketingUi = {
     "apps": "Aplicații",
     "support": "Suport",
     "newsletterTitle": "Newsletter",
-    "newsletterDescription": "Actualizări lunare despre produse, firmware și sfaturi KVM.",
+    "newsletterDescription": "Acces timpuriu la lansări, actualizări lunare de produs și firmware și sfaturi KVM — cel mult un e-mail pe lună.",
     "newsletterSubmit": "Abonare",
     "newsletterNamePlaceholder": "Nume",
     "newsletterEmailPlaceholder": "E-mail *",
     "newsletterFootnote": "Dezabonare oricând.",
     "copyright": "Openterface. KVM-over-USB open source.",
     "privacy": "Confidențialitate",
-    "terms": "Termeni"
+    "terms": "Termeni",
+    "newsletterLink": "Newsletter"
   },
   "productLanding": {
     "downloadApp": "Descarcă aplicația",
@@ -113,5 +127,17 @@ export const ui: MarketingUi = {
     "documentation": "Documentație",
     "ctaTitle": "Gata să începi?",
     "ctaSubtitle": "Comandă hardware-ul și descarcă aplicația Openterface pentru platforma ta."
+  },
+  "productSubscribe": {
+    "kicker": "Rămâi la curent",
+    "heading": "Primește noutăți și firmware pentru {product}",
+    "description": "Află primul despre precomenzi, firmware și sfaturi pentru acest produs — cel mult un e-mail pe lună.",
+    "benefitCrowdfunding": "Acces timpuriu la crowdfunding și precomenzi",
+    "benefitGuides": "Ghiduri de configurare și note de lansare ale aplicațiilor",
+    "benefitUnsubscribe": "Dezabonare oricând cu un singur clic",
+    "submitLabel": "Abonează-te la actualizări",
+    "namePlaceholder": "Nume (opțional)",
+    "emailPlaceholder": "Adresă de e-mail *",
+    "footnote": "Cel mult un e-mail pe lună. Dezabonare oricând. Contact: info@openterface.com"
   }
 };
