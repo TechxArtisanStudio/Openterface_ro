@@ -1,75 +1,112 @@
 import { docsPath, siteConfig } from '../../config/site';
+import { getKeymodShareImageUrl } from '../keymodAssets';
 import type { Product } from '../products';
 
+const keymodShareImage = getKeymodShareImageUrl(siteConfig.url);
+
 /**
- * KeyMod marketing payload — Phase 1E flat landing at /keymod/.
- * Sourced from docs/products/keymod/ (index, features, use-cases).
+ * KeyMod marketing payload — JSON-LD and shared product metadata for /keymod/.
  */
 export const keymodProduct: Product = {
   slug: 'keymod',
-  title: "Openterface Seria KeyMod",
-  slogan: "Transformă-ți telefonul într-o tastatură inteligentă",
-  subtitle: "Control programabil al tastaturii și mouse-ului pentru tehnologie, profesioniști și gaming.",
+  title: 'Openterface KeyMod Series',
+  slogan: 'Pocket USB multi-tool bridge.',
+  subtitle: 'Plug into the target device, control from KeyCmd on your phone.',
   status: 'pre-launch',
   description:
-    "Un emulator HID USB + Bluetooth compact și programabil care îți transformă telefonul într-o consolă portabilă de tastatură și trackpad. Construit pe nucleul HID dovedit de la Openterface Mini-KVM — plug and play, 100% open source.",
+    'Pocket USB multi-tool bridge. Plug into the target device, control from KeyCmd on your phone. BIOS-capable HID. Mini for Type-C. Plus for USB-A servers.',
   seoDescription:
-    "Seria KeyMod îți transformă telefonul într-o tastatură și trackpad portabil. Emulator HID USB + Bluetooth, open source, perfect pentru chioșcuri și scurtături de flux de lucru.",
+    'Pocket USB multi-tool bridge. Plug into the target device, control from KeyCmd on your phone. BIOS-capable HID. Mini for Type-C. Plus for USB-A servers.',
   keywords:
-    "KeyMod, emulator HID, tastatură telefon, tastatură Bluetooth, tastatură USB, open source",
-  heroImage: 'https://assets2.openterface.com/images/keymod/2in1.webp',
+    'KeyMod, Wireless USB Multi-tool, KeyCmd, wireless HID, BIOS keyboard, homelab, sysadmin, USB-C, USB-A',
+  heroImage: keymodShareImage,
   heroImages: [
-    'https://assets2.openterface.com/images/keymod/2in1.webp',
+    keymodShareImage,
     'https://assets2.openterface.com/images/keymod/keymod.webp',
     'https://assets2.openterface.com/images/keymod/feature.webp',
   ],
-  buyLabel: "Susține ACUM",
+  buyLabel: 'Pre-launch',
   buyHref: siteConfig.links.keymodCrowdsupply,
   painPoints: [
-    "Transportul unei tastaturi complete pentru configurarea unui chioșc sau TV este impracticabil",
-    "Scurtăturile fluxului de lucru necesită macro-uri programabile în mișcare",
-    "Multe instrumente HID sunt closed-source cu personalizare limitată",
+    'Carrying a full keyboard for kiosk or TV setup is impractical',
+    'Workflow shortcuts need programmable macros on the go',
+    'Many HID tools are closed-source with limited customization',
   ],
   solutions: [
-    "Folosește-ți telefonul ca tastatură și trackpad portabil",
-    "HID USB și Bluetooth într-un singur dispozitiv compact",
-    "100% open source cu suport pentru aplicația Openterface",
+    'Use your phone as a portable keyboard and trackpad',
+    'USB for reliability, Bluetooth when cable-free matters',
+    '100% open source with KeyCmd app profiles and macros',
   ],
   hwFeatures: [
-    { title: "Format compact", description: "Încape în buzunar pentru munca de teren și călătorii." },
-    { title: "USB + Bluetooth", description: "Conectivitate duală pentru compatibilitate maximă cu dispozitivele." },
-    { title: "Hardware deschis", description: "Design transparent construit pe nucleul HID dovedit al Openterface." },
+    {
+      title: 'Phone as keyboard & trackpad',
+      description: 'Full HID keyboard and mouse from your phone — no target software required.',
+    },
+    {
+      title: 'USB + Bluetooth dual connect',
+      description: 'Wired USB for low latency; Bluetooth LE when you want a cable-free setup.',
+    },
+    {
+      title: 'True hardware HID',
+      description: 'CH9329-based emulation — proven Openterface HID core from Mini-KVM.',
+    },
+    {
+      title: 'Compact pocket form',
+      description: '2-in-1 USB A+C or dedicated USB-C variants for laptops, tablets, and phones.',
+    },
+    {
+      title: 'Programmable buttons',
+      description: 'Hardware buttons for quick profile or macro triggers in the field.',
+    },
+    {
+      title: 'Open hardware',
+      description: 'Schematics, firmware, and BOM published as the project evolves.',
+    },
   ],
   swFeatures: [
-    { title: "Aplicația KeyMod", description: "Configurează macro-uri, layout-uri și profiluri de gamepad de pe telefon." },
-    { title: "Multi-platformă", description: "Funcționează cu Android, iPadOS și gazde desktop prin aplicațiile Openterface." },
-    { title: "Open source", description: "Stiva completă disponibilă pe GitHub pentru contribuții din partea comunității." },
+    {
+      title: 'KeyCmd mobile app',
+      description: 'Open-source Android & iPadOS app — also works with Mini-KVM and KVM-GO.',
+    },
+    {
+      title: 'Shortcut Hub & macros',
+      description: 'App-specific profiles for Blender, KiCAD, Photoshop, VS Code, and more.',
+    },
+    {
+      title: 'Voice & presentation',
+      description: 'Speech-to-keyboard (Whisper) and slide remote modes built in.',
+    },
   ],
   specs: [
-    { label: "Conectivitate", value: "USB-C + Bluetooth LE" },
-    { label: "Moduri HID", value: "Tastatură, mouse, gamepad" },
-    { label: "Licență", value: "Hardware și software open source" },
+    { label: 'Connectivity', value: 'USB-C (+ USB A on 2-in-1 variant) · Bluetooth HID' },
+    { label: 'HID modes', value: 'Keyboard, mouse, gamepad' },
+    { label: 'Target device', value: 'Plug-and-play — no software install' },
+    { label: 'Host apps', value: 'KeyCmd on Android & iPadOS (beta)' },
+    { label: 'Chipset', value: 'CH9329 HID emulator + Bluetooth module' },
+    { label: 'License', value: 'Open source hardware & software' },
   ],
   useCases: [
-    "Intrare pentru Smart TV și chioșcuri",
-    "Macro-uri pentru flux de lucru mobil",
-    "Configurații pentru gaming și accesibilitate",
+    'Outdoor display computers',
+    'LED signage players',
+    'Kiosk configuration',
+    'Smart TVs & set-top boxes',
+    'Quick workflow shortcuts',
   ],
   useCaseCards: [
     {
       title: 'Outdoor display computers',
       description: 'Configure and troubleshoot outdoor PCs without carrying a keyboard.',
-      href: docsPath('/keymod/use-cases/'),
+      href: docsPath('/products/keymod/use-cases/'),
     },
     {
       title: 'LED signage players',
       description: 'On-site updates to signage controllers — phone as full keyboard.',
-      href: docsPath('/keymod/use-cases/'),
+      href: docsPath('/products/keymod/use-cases/'),
     },
     {
       title: 'Kiosks',
       description: 'Debug, configure, or maintain kiosks with immediate HID access.',
-      href: docsPath('/keymod/use-cases/'),
+      href: docsPath('/products/keymod/use-cases/'),
     },
     {
       title: 'Smart TVs & set-top boxes',
@@ -78,16 +115,16 @@ export const keymodProduct: Product = {
     {
       title: 'Quick workflow shortcuts',
       description: 'Developers and IT staff — occasional input without extra gear.',
-      href: docsPath('/keymod/use-cases/'),
+      href: docsPath('/products/keymod/use-cases/'),
     },
     {
       title: 'Portable & plug-and-play',
       description: 'Your phone is always with you; KeyMod stays compact in your bag.',
     },
   ],
-  useCasesDocsHref: docsPath('/keymod/use-cases/'),
-  specsDocsHref: docsPath('/keymod/features/'),
-  docsOverviewHref: docsPath('/keymod/'),
+  useCasesDocsHref: docsPath('/products/keymod/use-cases/'),
+  specsDocsHref: docsPath('/products/keymod/features/'),
+  docsOverviewHref: docsPath('/products/keymod/'),
   videoProductSlug: 'keymod',
   videoSectionTitle: 'Community reviews & demos',
   latestNewsHref: 'https://news.openterface.com/',
@@ -95,11 +132,11 @@ export const keymodProduct: Product = {
   latestNewsSubtitle: 'Beta releases, app updates, and pre-launch news.',
   latestNewsLabel: 'Read on Openterface News →',
   docLinks: [
-    { label: "Caracteristici", href: docsPath("/product/keymod/features/") },
-    { label: "Ce se află în cutie", href: docsPath("/product/keymod/whats-in-the-box/") },
-    { label: "Cum se conectează", href: docsPath("/product/keymod/how-to-connect/") },
-    { label: "Întrebări frecvente", href: docsPath("/product/keymod/faq/") },
-    { label: "Descarcă Aplicația KeyMod", href: docsPath("/app/overview/") },
+    { label: 'Features', href: docsPath('/products/keymod/features/') },
+    { label: "What's in the Box", href: docsPath('/products/keymod/whats-in-the-box/') },
+    { label: 'How to Connect', href: docsPath('/products/keymod/how-to-connect/') },
+    { label: 'Use Cases', href: docsPath('/products/keymod/use-cases/') },
+    { label: 'FAQs', href: docsPath('/products/keymod/faq/') },
   ],
-  legacyBase: "/products/keymod/",
+  legacyBase: '/products/keymod/',
 };
