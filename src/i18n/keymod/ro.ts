@@ -572,7 +572,22 @@ export const ro: KeymodLandingStrings = {
       cta: "Descoperă KeyCmd",
       mediaLabel: "Ecranul de bun venit KeyCmd, alege un mod de control",
     },
-    crowdSupplyCampaign: {
+    crowdSupplyStats: {
+    eyebrow: 'Campaign progress',
+    title: 'Live on Crowd Supply',
+    ofGoal: 'of {goal} goal',
+    funded: 'Funded',
+    overFunded: 'Stretch goal unlocked!',
+    backers: 'backers',
+    daysLeft: 'days left',
+    updates: 'updates',
+    cta: 'Back the campaign',
+    lastUpdated: 'Updated',
+    updatedJustNow: 'just now',
+    updatedYesterday: 'yesterday',
+    fallbackText: 'Campaign is live on Crowd Supply.',
+  },
+  crowdSupplyCampaign: {
       eyebrow: "Crowd Supply",
       title: "Live pe Crowd Supply",
       body: "Susține KeyMod Mini și Plus pe Crowd Supply. Punți USB de buzunar care transformă telefonul într-o consolă wireless. Campania este activă.",
