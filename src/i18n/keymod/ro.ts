@@ -9,7 +9,7 @@ export const ro: KeymodLandingStrings = {
     },
     nav: {
       docs: "Documentație",
-      preLaunchCta: "Pre-lansare",
+      preLaunchCta: "Susține pe Crowd Supply",
     },
     povTabs: {
       keyboard: "Tastatură",
@@ -28,7 +28,7 @@ export const ro: KeymodLandingStrings = {
       equationEquals: "=",
       lead: "Conectează-l la dispozitivul țintă. Control BLE, zero drivere, pregătit pentru BIOS. Server, PC sau consolă. Orice port USB.",
       docsCta: "Documentație",
-      preLaunchCta: "Pre-lansare",
+      preLaunchCta: "Susține pe Crowd Supply",
     },
     whatItIs: {
       eyebrow: "Ce este",
@@ -49,7 +49,7 @@ export const ro: KeymodLandingStrings = {
       eyebrow: "Alegeți portul",
       title: "Mini vs Plus",
       stackLine: "Aceeași aplicație KeyCmd. Un dongle diferit pentru portul mașinii tale.",
-      crowdSupplyCta: "Pre-lansare pe Crowd Supply",
+      crowdSupplyCta: "Live pe Crowd Supply",
       mini: {
         name: "KeyMod Mini",
         port: "USB-C mascul → țintă",
@@ -127,10 +127,10 @@ export const ro: KeymodLandingStrings = {
         mediaLabel: "Layout hibrid POV KM Pro (placeholder)",
       },
       proTerminal: {
-        badge: "Terminal · Previzualizare",
+        badge: "Terminal",
         title: "SSH de pe telefonul tău",
-        lead: "USB când este cablat. Bluetooth la rack. Demourile de previzualizare sunt livrate în KeyCmd astăzi.",
-        body: "Mod Terminal dedicat în KeyCmd: SSH prin USB ECM (Plus) sau BLE-Eth (Mini). Conexiunea completă de producție urmează în faza 2 a firmware-ului KeyMod.",
+        lead: "Deschide sesiuni SSH direct din KeyCmd. USB prin cablu. Bluetooth la rack.",
+        body: "Modul Terminal în KeyCmd: SSH prin USB ECM (Plus) sau BLE-Eth (Mini). Funcționează astăzi cu ținte macOS și Linux.",
         mediaLabel: "Sesiune SSH în terminal (transport USB, reînregistrare)",
       },
       composeSend: {
@@ -262,19 +262,19 @@ export const ro: KeymodLandingStrings = {
           ],
         },
         terminal: {
-          badge: "Terminal · Previzualizare",
+          badge: "Terminal",
           title: "SSH de pe telefon",
           body: "Modul Terminal dedicat rulează SSH prin puntea KeyMod. Alege USB pentru viteză la mașină sau Bluetooth când ești în cealaltă parte a camerei.",
-          experimentalHint: "Funcție în previzualizare. SSH live prin hardware-ul KeyMod urmează în Faza 2 de firmware.",
+          experimentalHint: "",
           demo: {
             interactiveDemoLabel: "Demo interactiv",
-            title: "Previzualizare Terminal",
+            title: "Demo Terminal",
             summary: "Încearcă reluarea sesiunii SSH preînregistrate. Nu este necesar hardware.",
             statusDisconnected: "Deconectat",
             statusConnecting: "Se conectează…",
             statusConnected: "Conectat",
-            demoBleLabel: "Demo previzualizare (Bluetooth)",
-            demoUsbLabel: "Demo previzualizare (USB)",
+            demoBleLabel: "Demo (Bluetooth)",
+            demoUsbLabel: "Demo (USB)",
             transportBle: "BLE",
             transportUsb: "USB",
             uiFidelityNote: "UI aproximativ. Verifică KeyCmd pe telefon pentru aplicația live.",
@@ -290,7 +290,7 @@ export const ro: KeymodLandingStrings = {
             label: "BLE-Eth · KeyMod Mini",
             body: "SSH wireless când Mini este pe țintă. Se recomandă geometria compactă a terminalului. Demo-ul de previzualizare este disponibil astăzi în KeyCmd.",
           },
-          notice: "KeyCmd include astăzi UI-ul Terminal și stiva de transport cu demo-uri de previzualizare (USB și Bluetooth). SSH live prin hardware-ul KeyMod urmează după aprobarea Fazei 2 de firmware.",
+          notice: "Modul Terminal este disponibil astăzi în KeyCmd. Deschide sesiuni SSH prin puntea KeyMod pe ținte macOS și Linux. Suportul pentru ținte Windows prin RNDIS este în dezvoltare.",
         },
       },
       gameZone: {
@@ -471,10 +471,10 @@ export const ro: KeymodLandingStrings = {
     productJourney: {
       eyebrow: "Călătoria produsului",
       title: "De la concept pe biroul tău",
-      subtitle: "Șapte etape livrate. Validarea pre-lansare este în desfășurare. Urmează crowdfunding-ul și distribuirea.",
+      subtitle: "Opt repere atinse. Mostre de inginerie limitate au fost distribuite. Crowdfunding-ul este activ pe Crowd Supply.",
       scrollHint: "← Glisează pentru etapele anterioare",
       nowLabel: "Acum",
-      nowSublabel: "Pre-lansare · validare finală hardware și firmware",
+      nowSublabel: "Crowdfunding activ pe Crowd Supply",
       milestones: [
         {
           id: "concept",
@@ -491,8 +491,8 @@ export const ro: KeymodLandingStrings = {
         {
           id: "cs-prelaunch",
           status: "done",
-          title: "Pre-lansare Crowd Supply",
-          lead: "Pagina campaniei activă. Urmărește pentru ziua lansării.",
+          title: "Campania Crowd Supply activă",
+          lead: "Campania este activă. Susține KeyMod pentru a-ți asigura al tău.",
           href: keymodLinks.crowdSupply,
         },
         {
@@ -521,19 +521,16 @@ export const ro: KeymodLandingStrings = {
         },
         {
           id: "beta-2",
-          status: "upcoming",
-          variant: "beta",
-          badge: "Beta · Runda 2",
-          title: "Următoarele invitații beta",
-          lead: "Beta închisă mai largă pe firmware și hardware reîmprospătate înainte de crowdfunding.",
-          timingLabel: "Înainte de lansare",
-          href: "#updates",
+          status: "done",
+          title: "Mostre de inginerie distribuite",
+          lead: "Unități de inginerie limitate alocate susținătorilor timpurii pentru validare în condiții reale.",
         },
         {
           id: "crowdfunding",
-          status: "upcoming",
-          title: "Crowdfunding-ul se deschide",
-          timingLabel: "~Mid-July 2026",
+          status: "done",
+          title: "Crowdfunding activ",
+          timingLabel: "August 2026",
+          href: keymodLinks.crowdSupply,
         },
         {
           id: "campaign",
@@ -577,15 +574,15 @@ export const ro: KeymodLandingStrings = {
     },
     crowdSupplyCampaign: {
       eyebrow: "Crowd Supply",
-      title: "Pre-lansare pe Crowd Supply",
-      body: "Susține KeyMod Mini și Plus pe Crowd Supply — punți USB de buzunar care transformă telefonul tău într-o consolă wireless. Sprijină-ne pentru a face acest lucru realitate!",
-      cta: "Pre-lansare",
+      title: "Live pe Crowd Supply",
+      body: "Susține KeyMod Mini și Plus pe Crowd Supply. Punți USB de buzunar care transformă telefonul într-o consolă wireless. Campania este activă.",
+      cta: "Susține campania",
     },
     crowdSupplySupport: {
       eyebrow: "Susține proiectul",
       title: "Ajută-ne să lansăm următoarea etapă",
-      body: "Urmărește KeyMod pe Crowd Supply și susține campania când se deschide. Modurile experimentale precum Agent se lansează mai repede atunci când mai mulți developeri sprijină proiectul — fiecare susținător ajută la transformarea roadmap-ului firmware-ului din așteptare în realitate.",
-      cta: "Urmărește pe Crowd Supply",
+      body: "KeyMod este activ pe Crowd Supply. Susține campania și ajută-ne să construim roadmap-ul firmware. Modurile experimentale precum Agent apar mai repede când mai mulți creatori susțin proiectul. Fiecare susținător ne cumpără mai mult timp de inginerie.",
+      cta: "Susține pe Crowd Supply",
     },
     crowdSupplyOpensource: {
       eyebrow: "Deschis prin design",
@@ -608,7 +605,7 @@ export const ro: KeymodLandingStrings = {
       title: "Primește actualizări despre lansarea KeyMod",
       description: "Lansări de produse, versiuni de firmware și ghiduri de configurare. Cel mult un e-mail pe lună. Fără spam.",
       benefits: [
-        "Acces timpuriu la ferestrele de crowdfunding și pre-comandă",
+        "Acces direct la campania Crowd Supply",
         "Ghiduri de configurare și note de lansare KeyCmd",
         "Dezabonează-te oricând cu un singur click",
       ],
